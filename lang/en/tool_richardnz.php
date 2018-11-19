@@ -29,3 +29,4 @@ defined('MOODLE_INTERNAL') || die();
 // General module strings
 $string['pluginname'] = 'Richard NZ tool';
 $string['greeting'] = 'Hello World!';
+$string['index_header'] = 'Main page';
