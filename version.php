@@ -25,7 +25,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'tool_richardnz';
-$plugin->version = 2018112000;
+$plugin->name = "My admin tool";
+$plugin->version = 2018112001;
 $plugin->release = 'v1.0'; // Adding question answered checks.
 $plugin->requires = 2017111301; // Designed for Moodle 3.5.
 $plugin->maturity = MATURITY_ALPHA;
