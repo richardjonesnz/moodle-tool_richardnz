@@ -17,16 +17,16 @@
 /**
  * Defines the version and other meta-info about the plugin
  *
- * @package    modtool_simplelessonrichardnz
- * @copyright  2018 Richard Jones <richardnz@outlook.com>
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package tool_richardnz
+ * @copyright 2018 Richard Jones <richardnz@outlook.com>
+ * @license http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @see https://moodledev.moodle.school/mod/page/view.php?id=50
  */
 
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'tool_richardnz';
-$plugin->name = "My admin tool";
-$plugin->version = 2018112001;
-$plugin->release = 'v1.0'; // Adding question answered checks.
-$plugin->requires = 2017111301; // Designed for Moodle 3.5.
+$plugin->version = 2018112003;
+$plugin->release = 'v1.01'; // Added index page
+$plugin->requires = 2017111301;
 $plugin->maturity = MATURITY_ALPHA;
