@@ -23,7 +23,7 @@
  * @see https://moodledev.moodle.school/mod/page/view.php?id=50
  */
 
-defined('MOODLE_INTERNAL') || die();
+//defined('MOODLE_INTERNAL') || die();
 
 require_once(__DIR__ . '/../../../config.php');
 

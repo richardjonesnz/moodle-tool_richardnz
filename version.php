@@ -27,6 +27,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'tool_richardnz';
 $plugin->version = 2018112003;
-$plugin->release = 'v1.01'; // Added index page
+$plugin->release = 'v1.1'; // Added index page
 $plugin->requires = 2017111301;
 $plugin->maturity = MATURITY_ALPHA;
