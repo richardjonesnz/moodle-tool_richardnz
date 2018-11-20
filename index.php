@@ -22,7 +22,7 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  * @see https://moodledev.moodle.school/mod/page/view.php?id=50
  */
-
+use \tool_richardnz\local\taskstable;
 require_once(__DIR__ . '/../../../config.php');
 global $DB;
 
@@ -44,30 +44,9 @@ echo $OUTPUT->heading($title, 2);
 echo get_string('greeting', 'tool_richardnz');
 
 // Get some user data.
-$records = $DB->get_records('user', [], null, 'id, firstname, lastname, city');
+$tasks = new taskstable();
 
-// Build an html table.
-$table = new html_table();
-
-// Headers: explicit but should be in language file really.
-$table->head = array('id', 'First name', 'Last name', 'Location');
-$table->align =array('left', 'left', 'left', 'left');
-$table->wrap =array('nowrap', 'nowrap', 'nowrap', '');
-$table->cellspacing = 0;
-$table->cellpadding = '2px';
-$table->width = '80%';
-
-// Build all the other rows.
-foreach($records as $record) {
-    $data = array();
-    $data[] = $record->id;
-    $data[] = $record->firstname;
-    $data[] = $record->lastname;
-    $data[] = $record->city;
-    $table->data[] = $data;
-}
-
-echo html_writer::table($table);
+echo $tasks->out(20, false);
 
 // End the page properly: IMPORTANT!
 echo $OUTPUT->footer();

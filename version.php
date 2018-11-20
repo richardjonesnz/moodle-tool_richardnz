@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'tool_richardnz';
-$plugin->version = 2018112005;
-$plugin->release = 'v1.4'; // Added database table
+$plugin->version = 2018112006;
+$plugin->release = 'v1.5'; // Added database foreign key.
 $plugin->requires = 2017111301;
 $plugin->maturity = MATURITY_ALPHA;
