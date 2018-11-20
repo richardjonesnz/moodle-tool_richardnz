@@ -14,20 +14,23 @@
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
-
 /**
- * English strings for tool Richardnz
+ * Callback functions for tool_richardnz.
  *
- * @package    mod_multipage
- * @copyright  2018 Richard Jones <richardnz@outlook.com>
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
- *
+ * @package tool_richardnz
+ * @copyright 2018 Richard Jones <richardnz@outlook.com>
+ * @license http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @see https://moodledev.moodle.school/mod/page/view.php?id=50
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-// General module strings
-$string['pluginname'] = 'Richard NZ tool';
-$string['greeting'] = 'Hello World!';
-$string['param'] = '<p>The parameter is <b>{$a}</b></p>';
-$string['index_header'] = 'Main page';
+function tool_richardnz_extend_navigation_course($navigation, $course,
+        $context) {
+  $navigation->add( get_string('pluginname', 'tool_richardnz'),
+        new moodle_url('/admin/tool/richardnz/index.php',
+                ['id' => $course->id]),
+        navigation_node::TYPE_SETTING,
+        get_string('pluginname', 'tool_richardnz'), 'richardnz',
+        new pix_icon('icon', '', 'tool_richardnz'));
+}
