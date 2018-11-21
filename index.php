@@ -22,7 +22,7 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  * @see https://moodledev.moodle.school/mod/page/view.php?id=50
  */
-use \tool_richardnz\local\taskstable;
+use \tool_richardnz\local\table_data;
 use \tool_richardnz\local\debugging;
 
 require_once(__DIR__ . '/../../../config.php');
@@ -48,9 +48,8 @@ echo $OUTPUT->heading($title, 2);
 echo get_string('greeting', 'tool_richardnz');
 
 // Get some task data.
-$tasks = new taskstable($url, $context);
-debugging::logit('Tasks: ', $tasks);
-echo $tasks->out(20);
+$data = table_data::get_table_data();
+echo $OUTPUT->render_from_template('tool_richardnz/tasks_table', $data);
 
 // End the page properly: IMPORTANT!
 echo $OUTPUT->footer();

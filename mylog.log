@@ -143,3 +143,173 @@ Tasks: tool_richardnz\local\taskstable Object
 
 )
 
+Tasks: Array
+(
+    [1] => stdClass Object
+        (
+            [id] => 1
+            [courseid] => 7
+            [name] => Task 1
+            [completed] => 0
+            [priority] => 1
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => 2
+            [courseid] => 7
+            [name] => Task 2
+            [completed] => 1
+            [priority] => 3
+        )
+
+)
+
+Tasks: stdClass Object
+(
+    [class] => tool_richardnz_table
+    [caption] => [[tasks]]
+    [tableheaders] => Array
+        (
+            [0] => [[id]]
+            [1] => [[courseid]]
+            [2] => [[name]]
+            [3] => [[priority]]
+            [4] => [[completed]]
+        )
+
+    [tabledata] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [id] => 1
+                    [courseid] => 7
+                    [name] => Task 1
+                    [completed] => 0
+                    [priority] => 1
+                )
+
+            [1] => stdClass Object
+                (
+                    [id] => 2
+                    [courseid] => 7
+                    [name] => Task 2
+                    [completed] => 1
+                    [priority] => 3
+                )
+
+        )
+
+)
+
+Tasks: stdClass Object
+(
+    [class] => tool_richardnz_table
+    [caption] => Tasks
+    [tableheaders] => Array
+        (
+            [0] => Task number
+            [1] => Course id
+            [2] => Description
+            [3] => Priority
+            [4] => Completed
+        )
+
+    [tabledata] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [id] => 1
+                    [courseid] => 7
+                    [name] => Task 1
+                    [completed] => 0
+                    [priority] => 1
+                )
+
+            [1] => stdClass Object
+                (
+                    [id] => 2
+                    [courseid] => 7
+                    [name] => Task 2
+                    [completed] => 1
+                    [priority] => 3
+                )
+
+        )
+
+)
+
+Tasks: stdClass Object
+(
+    [class] => tool_richardnz_table
+    [caption] => Tasks
+    [tableheaders] => Array
+        (
+            [0] => Task number
+            [1] => Course id
+            [2] => Description
+            [3] => Priority
+            [4] => Completed
+        )
+
+    [tabledata] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [id] => 1
+                    [courseid] => 7
+                    [name] => Task 1
+                    [completed] => 0
+                    [priority] => 1
+                )
+
+            [1] => stdClass Object
+                (
+                    [id] => 2
+                    [courseid] => 7
+                    [name] => Task 2
+                    [completed] => 1
+                    [priority] => 3
+                )
+
+        )
+
+)
+
+Tasks: stdClass Object
+(
+    [class] => tool_richardnz_table
+    [caption] => Tasks
+    [tableheaders] => Array
+        (
+            [0] => Task number
+            [1] => Course id
+            [2] => Description
+            [3] => Priority
+            [4] => Completed
+        )
+
+    [tabledata] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [id] => 1
+                    [courseid] => 7
+                    [name] => Task 1
+                    [completed] => 0
+                    [priority] => 1
+                )
+
+            [1] => stdClass Object
+                (
+                    [id] => 2
+                    [courseid] => 7
+                    [name] => Task 2
+                    [completed] => 1
+                    [priority] => 3
+                )
+
+        )
+
+)
+

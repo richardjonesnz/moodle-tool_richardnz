@@ -31,3 +31,13 @@ $string['pluginname'] = 'Richard NZ tool';
 $string['greeting'] = 'Hello World!';
 $string['param'] = '<p>The parameter is <b>{$a}</b></p>';
 $string['index_header'] = 'Main page';
+
+// Strings for data table.
+$string['tasks'] = 'Tasks';
+$string['id'] = 'Task number';
+$string['courseid'] = 'Course id';
+$string['name'] = 'Description';
+$string['priority'] = 'Priority';
+$string['completed'] = 'Completed';
+$string['timecreated'] = 'Time created';
+$string['timemodified'] = 'Last modified';
