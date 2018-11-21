@@ -29,27 +29,36 @@ require_once(__DIR__ . '/../../../config.php');
 require_once($CFG->libdir.'/adminlib.php');
 global $DB;
 
-//  Add an optional parameter to the page.  Add to the url.
-$id = optional_param('id', 1, PARAM_INT);
+// Add a parameter to the page. Altered this to required since
+// We need to check permissions against the course context.
+$id = required_param('id', PARAM_INT);
 $url = new moodle_url('/admin/tool/richardnz/index.php', ['id' => $id]);
 $title = get_string('pluginname', 'tool_richardnz');
 
 // Setup the page.
 $context = context_system::instance();
+$coursecontext= context_course::instance($id);
 $PAGE->set_context($context);
 $PAGE->set_url($url);
 $PAGE->set_pagelayout('report');
 $PAGE->set_title($title);
 $PAGE->set_heading(get_string('index_header', 'tool_richardnz'));
 
+require_login();
+
 // Start output to browser.
 echo $OUTPUT->header();
 echo $OUTPUT->heading($title, 2);
 echo get_string('greeting', 'tool_richardnz');
 
-// Get some task data.
-$data = table_data::get_table_data();
-echo $OUTPUT->render_from_template('tool_richardnz/tasks_table', $data);
-
+// Verify user has capability to view.
+// We need to use the system context here.
+if (has_capability('tool/richardnz:view', $coursecontext)) {
+    // Get some task data.
+    $data = table_data::get_table_data();
+    echo $OUTPUT->render_from_template('tool_richardnz/tasks_table', $data);
+} else {
+    echo get_string('nopermission', 'tool_richardnz');
+}
 // End the page properly: IMPORTANT!
 echo $OUTPUT->footer();

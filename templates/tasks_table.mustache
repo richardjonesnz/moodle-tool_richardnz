@@ -28,19 +28,19 @@
 
     Example context (json):
         {
-         "class": "tool_richardnz_table"
-         "caption": "this is table is for..."
-         "tableheaders": ["colname", "colname", ...],
-         "tabledata": ["tabledata", "tabledata", ...]
+         "class": "tool_richardnz_table",
+         "caption": "this is table is for...",
+         "tableheaders": ["colname", "colname"],
+         "tabledata": ["tabledata", "tabledata"]
         }
 }}
 <div class="{{class}}">
-<p>{{caption}}</p>
-<div class="table-responsive">
-  <table class="table table-striped">
+  <p>{{caption}}</p>
+  <div class="table-responsive">
+    <table class="table table-striped">
       <thead>
         {{#tableheaders}}
-           <th>{{.}}</th>
+          <th>{{.}}</th>
         {{/tableheaders}}
       </thead>
       <tbody>
@@ -48,6 +48,6 @@
           {{> tool_richardnz/table_row}}
         {{/tabledata}}
       </tbody>
-  </table>
-</div>
+    </table>
+  </div>
 </div>

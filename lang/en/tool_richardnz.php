@@ -41,3 +41,10 @@ $string['priority'] = 'Priority';
 $string['completed'] = 'Completed';
 $string['timecreated'] = 'Time created';
 $string['timemodified'] = 'Last modified';
+
+// Capabilities.
+$string['richardnz:view'] = 'View tasks list';
+$string['richardnz:edit'] = 'Edit tasks list';
+
+// Errors/warnings
+$string['nopermission'] = 'Sorry you do not have permission to view that page';

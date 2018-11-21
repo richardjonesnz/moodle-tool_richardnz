@@ -27,10 +27,15 @@ defined('MOODLE_INTERNAL') || die();
 
 function tool_richardnz_extend_navigation_course($navigation, $course,
         $context) {
-  $navigation->add( get_string('pluginname', 'tool_richardnz'),
-        new moodle_url('/admin/tool/richardnz/index.php',
+    // Check permissions to view the link in the course nav.
+    // This is using the course context.
+    if (has_capability('tool/richardnz:view', $context)) {
+        // Go ahead and add the link to the course navigation.
+        $navigation->add( get_string('pluginname', 'tool_richardnz'),
+                new moodle_url('/admin/tool/richardnz/index.php',
                 ['id' => $course->id]),
         navigation_node::TYPE_SETTING,
         get_string('pluginname', 'tool_richardnz'), 'richardnz',
         new pix_icon('icon', '', 'tool_richardnz'));
+    }
 }
