@@ -22,22 +22,42 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 namespace tool_richardnz\local;
-
 defined('MOODLE_INTERNAL') || die();
+
 require_once($CFG->libdir.'/tablelib.php');
 
 class taskstable extends \table_sql {
 
-    public function __construct() {
+    public function __construct($url, $context) {
 
-        $headers = array('id', 'Course id', 'Task name', 'Completed', 'Priority');
-        $columns = array('id', 'courseid', 'name', 'completed', 'priority');
-
-        $this->define_headers($headers);
-        $this->define_columns($columns);
-
-        $from = '{tool_richardnz}';
-        $this->set_sql($columns, $from, 1, array());
+        $this->context = $context;
+        // switch to get_string when working
+        $cols = array('id' => 'id',
+                      'courseid' => 'course id',
+                      'name' => 'task',
+                      'completed' => 'completed?',
+                      'priority' => 'Priority');
+        $this->define_columns(array_keys($cols));
+        $this->define_headers(array_values($cols));
+        $this->define_baseurl($url);
+        $this->collapsible(false);
+        $this->sortable(true, 'id', SORT_ASC);
+        $this->pagesize = 20;
     }
 
+    public function query_db($pagesize, $useinitialsbar = false) {
+        global $DB;
+
+        $this->rawdata = $DB->get_records('tool_richardnz', [], null, 'id, courseid, name, completed, priority');
+    }
+
+    public function out($pagesize, $useinitialsbar = false,
+            $downloadhelpbutton = '' ) {
+
+        $this->setup();
+        $this->query_db($pagesize);
+        $this->build_table();
+        $this->close_recordset();
+        $this->finish_output();
+    }
 }

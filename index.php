@@ -23,7 +23,10 @@
  * @see https://moodledev.moodle.school/mod/page/view.php?id=50
  */
 use \tool_richardnz\local\taskstable;
+use \tool_richardnz\local\debugging;
+
 require_once(__DIR__ . '/../../../config.php');
+require_once($CFG->libdir.'/adminlib.php');
 global $DB;
 
 //  Add an optional parameter to the page.  Add to the url.
@@ -32,7 +35,8 @@ $url = new moodle_url('/admin/tool/richardnz/index.php', ['id' => $id]);
 $title = get_string('pluginname', 'tool_richardnz');
 
 // Setup the page.
-$PAGE->set_context(context_system::instance());
+$context = context_system::instance();
+$PAGE->set_context($context);
 $PAGE->set_url($url);
 $PAGE->set_pagelayout('report');
 $PAGE->set_title($title);
@@ -43,10 +47,10 @@ echo $OUTPUT->header();
 echo $OUTPUT->heading($title, 2);
 echo get_string('greeting', 'tool_richardnz');
 
-// Get some user data.
-$tasks = new taskstable();
-
-echo $tasks->out(20, false);
+// Get some task data.
+$tasks = new taskstable($url, $context);
+debugging::logit('Tasks: ', $tasks);
+echo $tasks->out(20);
 
 // End the page properly: IMPORTANT!
 echo $OUTPUT->footer();
