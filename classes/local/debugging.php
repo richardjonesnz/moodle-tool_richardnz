@@ -5,7 +5,7 @@ class debugging {
     public static function logit($message, $value) {
         global $CFG;
 
-        $file = fopen($CFG->dataroot . '/mylog.log', 'a');
+        $file = fopen('mylog.log', 'a');
 
         if ($file) {
             fwrite($file, print_r($message, true));

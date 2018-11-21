@@ -1,0 +1,145 @@
+Tasks: tool_richardnz\local\taskstable Object
+(
+    [countsql] => 
+    [countparams] => 
+    [sql] => 
+    [rawdata] => 
+    [is_sortable] => 1
+    [is_collapsible] => 
+    [uniqueid] => 
+    [attributes] => Array
+        (
+        )
+
+    [headers] => Array
+        (
+            [0] => id
+            [1] => course id
+            [2] => task
+            [3] => completed?
+            [4] => Priority
+        )
+
+    [helpforheaders:flexible_table:private] => Array
+        (
+        )
+
+    [columns] => Array
+        (
+            [id] => 0
+            [courseid] => 1
+            [name] => 2
+            [completed] => 3
+            [priority] => 4
+        )
+
+    [column_style] => Array
+        (
+            [id] => Array
+                (
+                )
+
+            [courseid] => Array
+                (
+                )
+
+            [name] => Array
+                (
+                )
+
+            [completed] => Array
+                (
+                )
+
+            [priority] => Array
+                (
+                )
+
+        )
+
+    [column_class] => Array
+        (
+            [id] => 
+            [courseid] => 
+            [name] => 
+            [completed] => 
+            [priority] => 
+        )
+
+    [column_suppress] => Array
+        (
+            [id] => 
+            [courseid] => 
+            [name] => 
+            [completed] => 
+            [priority] => 
+        )
+
+    [column_nosort] => Array
+        (
+            [0] => userpic
+        )
+
+    [column_textsort:flexible_table:private] => Array
+        (
+        )
+
+    [setup] => 
+    [baseurl] => moodle_url Object
+        (
+            [scheme:protected] => http
+            [host:protected] => localhost
+            [port:protected] => 
+            [user:protected] => 
+            [pass:protected] => 
+            [path:protected] => /moodle/admin/tool/richardnz/index.php
+            [slashargument:protected] => 
+            [anchor:protected] => 
+            [params:protected] => Array
+                (
+                    [id] => 7
+                )
+
+        )
+
+    [request] => Array
+        (
+        )
+
+    [persistent:flexible_table:private] => 
+    [use_pages] => 
+    [use_initials] => 
+    [maxsortkeys] => 2
+    [pagesize] => 20
+    [currpage] => 0
+    [totalrows] => 0
+    [currentrow] => 0
+    [sort_default_column] => id
+    [sort_default_order] => 4
+    [showdownloadbuttonsat] => Array
+        (
+            [0] => 1
+        )
+
+    [useridfield] => id
+    [download] => 
+    [downloadable] => 
+    [started_output] => 
+    [exportclass] => 
+    [prefs:flexible_table:private] => Array
+        (
+        )
+
+    [sheettitle:protected] => 
+    [filename:protected] => 
+    [context] => context_system Object
+        (
+            [_id:protected] => 1
+            [_contextlevel:protected] => 10
+            [_instanceid:protected] => 0
+            [_path:protected] => /1
+            [_depth:protected] => 1
+        )
+
+)
+
