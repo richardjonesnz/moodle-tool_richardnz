@@ -26,7 +26,7 @@
 
 namespace tool_richardnz\local;
 defined('MOODLE_INTERNAL') || die;
-
+use \tool_richardnz\local\debugging;
 class table_data {
 
     /**
@@ -43,18 +43,19 @@ class table_data {
         $headerdata[] = get_string('completed', 'tool_richardnz');
         $headerdata[] = get_string('timecreated', 'tool_richardnz');
         $headerdata[] = get_string('timemodified', 'tool_richardnz');
+        $headerdata[] = get_string('action', 'tool_richardnz');
 
         return $headerdata;
     }
     /**
      * Return data for the table rows
-     *
+     * @param integer $id - relevant course id.
      * @return object - data for the mustache renderer
      */
-    public static function get_table_data() {
+    public static function get_table_data($id) {
         global $DB;
 
-        $records = $DB->get_records('tool_richardnz', [], null, 'id, courseid, name, completed, priority, timecreated, timemodified');
+        $records = $DB->get_records('tool_richardnz', ['courseid' => $id], null, 'id, courseid, name, completed, priority, timecreated, timemodified');
 
         $table = new \stdClass();
         $table->class = 'tool_richardnz_table';
@@ -72,10 +73,66 @@ class table_data {
                     $record->completed == 1 ? 'yes' : 'no';
             $data['timecreated'] = $record->timecreated;
             $data['timemodified'] = $record->timemodified;
+            // Add the edit link.
+            $url = new \moodle_url('edit.php',
+                    ['id' => $record->courseid, 'itemid' => $record->id]);
+            $data['editlink'] = \html_writer::link($url,
+                    get_string('editlink', 'tool_richardnz'));
 
             $table->tabledata[] = $data;
         }
 
         return $table;
     }
+
+    /**
+     * Save data for a task in the database
+     * @param integer $id - relevant course id.
+     * @param object data - data from the edit form.
+     * @return integer - id of inserted record.
+     */
+    public static function save_table_data($id, $data) {
+        global $DB;
+
+        // A new task to add.
+        if (!self::name_exists($id, $data->name)) {
+            $data->courseid = $id;
+            $data->timecreated = time();
+            $data->timemodified = time();
+            return $DB->insert_record('tool_richardnz', $data);
+        }
+        return -1;
+    }
+    /**
+     * Check task name for duplicate
+     * @param integer $id - relevant course id.
+     * @param object $name - task name to check
+     * @return boolean - true if name of task is already in database for this course.
+     */
+    public static function name_exists($id, $name) {
+        global $DB;
+
+        return $DB->record_exists('tool_richardnz',
+                ['name' => $name, 'courseid' => $id]);
+    }
+    /**
+     * Get the data for a task given its id
+     * @param integer $id - relevant item id.
+     * @return object - the data record for the task.
+     */
+    public static function get_task($id) {
+        global $DB;
+        return $DB->get_record('tool_richardnz', ['id' => $id], '*',
+                MUST_EXIST);
+    }
+
+    new function here..........
+
+            // Update the existing record with the data.
+            $data->id = $itemid;
+            $data->timemodified = time();
+            $DB->update_record('tool_richardnz', $data);
+            return $itemid;
+        }
+
 }

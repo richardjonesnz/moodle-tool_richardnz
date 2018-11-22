@@ -31,10 +31,14 @@ $string['pluginname'] = 'Richard NZ tool';
 $string['greeting'] = 'Hello World!';
 $string['param'] = '<p>The parameter is <b>{$a}</b></p>';
 $string['index_header'] = 'Main page';
+$string['add_link'] = 'Add new task';
+$string['editlink'] = 'edit';
+$string['action'] = 'Action';
+$string['taskadded'] = 'Task added';
 
 // Strings for data table.
 $string['tasks'] = 'Tasks';
-$string['id'] = 'Task number';
+$string['id'] = 'Task id';
 $string['courseid'] = 'Course id';
 $string['name'] = 'Description';
 $string['priority'] = 'Priority';
@@ -48,3 +52,8 @@ $string['richardnz:edit'] = 'Edit tasks list';
 
 // Errors/warnings
 $string['nopermission'] = 'Sorry you do not have permission to view that page';
+$string['taskduplicate'] = 'Not added: a task with that name already exists.';
+// edit page.
+$string['edit_header'] = 'Add or edit tasks';
+$string['edit_title'] = 'Edit a task';
+$string['add_title'] = 'Add a new task';
