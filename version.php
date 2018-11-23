@@ -27,6 +27,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'tool_richardnz';
 $plugin->version = 2018112206;
-$plugin->release = 'v1.6'; // Added capabilities.
+$plugin->release = 'v1.7'; // Added forms processing.
 $plugin->requires = 2017111301;
 $plugin->maturity = MATURITY_ALPHA;
