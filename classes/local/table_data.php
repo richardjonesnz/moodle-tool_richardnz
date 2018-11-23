@@ -81,12 +81,19 @@ class table_data {
                         ['id' => $record->courseid, 'itemid' => $record->id]);
                 $data['editlink'] = \html_writer::link($url,
                         get_string('editlink', 'tool_richardnz'));
+            } else {
+                $data['editlink'] = '-';
             }
+            // delete link (add the sesskey!).
             if ($candelete) {
                 $url = new \moodle_url('edit.php',
-                        ['id' => $record->courseid, 'itemid' => -$record->id]);
+                        ['id' => $record->courseid,
+                         'itemid' => -$record->id,
+                         'sesskey' => sesskey()]);
                 $data['deletelink'] = \html_writer::link($url,
                         get_string('deletelink', 'tool_richardnz'));
+            } else {
+                $data['deletelink'] = '-';
             }
             $table->tabledata[] = $data;
         }

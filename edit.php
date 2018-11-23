@@ -78,6 +78,7 @@ if ($mform->is_cancelled()) {
 if ($itemid < 0) {
     // Additional capability required to delete a task
     if (has_capability('tool/richardnz:delete', $context)) {
+        require_sesskey();
         $DB->delete_records('tool_richardnz', ['id' => abs($itemid)]);
         redirect($return_index, get_string('taskdeleted', 'tool_richardnz'), 2,
                     notification::NOTIFY_SUCCESS);
