@@ -35,6 +35,7 @@ $string['add_link'] = 'Add new task';
 $string['editlink'] = 'edit';
 $string['action'] = 'Action';
 $string['taskadded'] = 'Task added';
+$string['taskupdated'] = 'Task updated';
 
 // Strings for data table.
 $string['tasks'] = 'Tasks';
@@ -52,7 +53,7 @@ $string['richardnz:edit'] = 'Edit tasks list';
 
 // Errors/warnings
 $string['nopermission'] = 'Sorry you do not have permission to view that page';
-$string['taskduplicate'] = 'Not added: a task with that name already exists.';
+$string['taskduplicate'] = 'No change: a task with that name already exists.';
 // edit page.
 $string['edit_header'] = 'Add or edit tasks';
 $string['edit_title'] = 'Edit a task';

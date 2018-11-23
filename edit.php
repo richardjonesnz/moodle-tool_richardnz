@@ -33,13 +33,17 @@ global $DB;
 // Course id.
 $id = required_param('id', PARAM_INT);
 $itemid = optional_param('itemid', 0, PARAM_INT);
-
-$url = new moodle_url('/admin/tool/richardnz/edit.php', ['id' => $id]);
+// If itemid is non zero, we came from an edit link.
 if ($itemid != 0) {
+    // Get the data for this task and load to the form.
+    $data = table_data::get_task($itemid);
+    $id = $data->courseid;
     $title = get_string('edit_title', 'tool_richardnz');
 } else {
     $title = get_string('add_title', 'tool_richardnz');
 }
+$url = new moodle_url('/admin/tool/richardnz/edit.php',
+            ['id' => $id, 'itemid' => $itemid]);
 
 // Setup the page.
 $context = context_course::instance($id);
@@ -50,9 +54,13 @@ $PAGE->set_title($title);
 $PAGE->set_heading(get_string('edit_header', 'tool_richardnz'));
 $return_index = new moodle_url('/admin/tool/richardnz/index.php',
         ['id' => $id]);
-
 require_login();
+
 $mform = new task_form(null, ['id' => $id, 'itemid' => $itemid]);
+
+if ($itemid != 0) {
+    $mform->set_data($data);
+}
 
 // Check for cancel button.
 if ($mform->is_cancelled()) {
@@ -60,14 +68,19 @@ if ($mform->is_cancelled()) {
 }
 
 if ($data = $mform->get_data()) {
-    // We have new data add the task.
-    $success = table_data::save_table_data($id, $data);
+    // We have data add/update the task.
+    $success = table_data::save_table_data($id, $itemid, $data);
     if ($success == -1) {
         redirect($return_index, get_string('taskduplicate', 'tool_richardnz'), 2,
                 notification::NOTIFY_ERROR);
     } else {
-        redirect($return_index, get_string('taskadded', 'tool_richardnz'), 2,
-                notification::NOTIFY_SUCCESS);
+        if ($itemid == 0) {
+            redirect($return_index, get_string('taskadded', 'tool_richardnz'), 2,
+                    notification::NOTIFY_SUCCESS);
+        } else {
+            redirect($return_index, get_string('taskupdated', 'tool_richardnz'),
+                    2, notification::NOTIFY_SUCCESS);
+        }
     }
 }
 
@@ -77,12 +90,6 @@ if (has_capability('tool/richardnz:edit', $context)) {
     // Start output to browser.
     echo $OUTPUT->header();
     echo $OUTPUT->heading($title, 2);
-    // Let's check if we came from the edit link beside each entry.
-    if ($itemid != 0) {
-        // Get the data for this task and load to the form.
-        $data = table_data::get_task($itemid);
-        $mform->set_data($data);
-    }
     $mform->display();
 
 } else {

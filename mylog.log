@@ -1,22 +1,180 @@
-saving datastdClass Object
+Why the problem bro moodle_url Object
 (
-    [name] => asdasd sdasd a
-    [completed] => 1
-    [id] => 3
-    [itemid] => 0
-    [submitbutton] => Save changes
+    [scheme:protected] => http
+    [host:protected] => localhost
+    [port:protected] => 
+    [user:protected] => 
+    [pass:protected] => 
+    [path:protected] => /moodle/admin/tool/richardnz/edit.php
+    [slashargument:protected] => 
+    [anchor:protected] => 
+    [params:protected] => Array
+        (
+            [id] => 5
+            [itemid] => 0
+        )
+
 )
 
-course3
-item0
-saving datastdClass Object
+Why the problem bro moodle_url Object
 (
-    [name] => asdasd sdasd a
-    [completed] => 1
-    [id] => 3
-    [itemid] => 0
-    [submitbutton] => Save changes
+    [scheme:protected] => http
+    [host:protected] => localhost
+    [port:protected] => 
+    [user:protected] => 
+    [pass:protected] => 
+    [path:protected] => /moodle/admin/tool/richardnz/edit.php
+    [slashargument:protected] => 
+    [anchor:protected] => 
+    [params:protected] => Array
+        (
+            [id] => 5
+            [itemid] => 0
+        )
+
 )
 
-course3
-item0
+Why the problem bro moodle_url Object
+(
+    [scheme:protected] => http
+    [host:protected] => localhost
+    [port:protected] => 
+    [user:protected] => 
+    [pass:protected] => 
+    [path:protected] => /moodle/admin/tool/richardnz/edit.php
+    [slashargument:protected] => 
+    [anchor:protected] => 
+    [params:protected] => Array
+        (
+            [id] => 5
+            [itemid] => 0
+        )
+
+)
+
+Cancelled moodle_url Object
+(
+    [scheme:protected] => http
+    [host:protected] => localhost
+    [port:protected] => 
+    [user:protected] => 
+    [pass:protected] => 
+    [path:protected] => /moodle/admin/tool/richardnz/edit.php
+    [slashargument:protected] => 
+    [anchor:protected] => 
+    [params:protected] => Array
+        (
+            [id] => 5
+            [itemid] => 0
+        )
+
+)
+
+Why the problem bro moodle_url Object
+(
+    [scheme:protected] => http
+    [host:protected] => localhost
+    [port:protected] => 
+    [user:protected] => 
+    [pass:protected] => 
+    [path:protected] => /moodle/admin/tool/richardnz/edit.php
+    [slashargument:protected] => 
+    [anchor:protected] => 
+    [params:protected] => Array
+        (
+            [id] => 5
+            [itemid] => 9
+        )
+
+)
+
+Why the problem bro moodle_url Object
+(
+    [scheme:protected] => http
+    [host:protected] => localhost
+    [port:protected] => 
+    [user:protected] => 
+    [pass:protected] => 
+    [path:protected] => /moodle/admin/tool/richardnz/edit.php
+    [slashargument:protected] => 
+    [anchor:protected] => 
+    [params:protected] => Array
+        (
+            [id] => 5
+            [itemid] => 9
+        )
+
+)
+
+Why the problem bro moodle_url Object
+(
+    [scheme:protected] => http
+    [host:protected] => localhost
+    [port:protected] => 
+    [user:protected] => 
+    [pass:protected] => 
+    [path:protected] => /moodle/admin/tool/richardnz/edit.php
+    [slashargument:protected] => 
+    [anchor:protected] => 
+    [params:protected] => Array
+        (
+            [id] => 5
+            [itemid] => 9
+        )
+
+)
+
+Why the problem bro moodle_url Object
+(
+    [scheme:protected] => http
+    [host:protected] => localhost
+    [port:protected] => 
+    [user:protected] => 
+    [pass:protected] => 
+    [path:protected] => /moodle/admin/tool/richardnz/edit.php
+    [slashargument:protected] => 
+    [anchor:protected] => 
+    [params:protected] => Array
+        (
+            [id] => 5
+            [itemid] => 9
+        )
+
+)
+
+Cancelled moodle_url Object
+(
+    [scheme:protected] => http
+    [host:protected] => localhost
+    [port:protected] => 
+    [user:protected] => 
+    [pass:protected] => 
+    [path:protected] => /moodle/admin/tool/richardnz/edit.php
+    [slashargument:protected] => 
+    [anchor:protected] => 
+    [params:protected] => Array
+        (
+            [id] => 5
+            [itemid] => 9
+        )
+
+)
+
+Why the problem bro moodle_url Object
+(
+    [scheme:protected] => http
+    [host:protected] => localhost
+    [port:protected] => 
+    [user:protected] => 
+    [pass:protected] => 
+    [path:protected] => /moodle/admin/tool/richardnz/edit.php
+    [slashargument:protected] => 
+    [anchor:protected] => 
+    [params:protected] => Array
+        (
+            [id] => 5
+            [itemid] => 9
+        )
+
+)
+

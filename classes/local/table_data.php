@@ -88,20 +88,29 @@ class table_data {
     /**
      * Save data for a task in the database
      * @param integer $id - relevant course id.
+     * @param integer $itemid - relevant task id.
      * @param object data - data from the edit form.
      * @return integer - id of inserted record.
      */
-    public static function save_table_data($id, $data) {
+    public static function save_table_data($id, $itemid, $data) {
         global $DB;
-
-        // A new task to add.
-        if (!self::name_exists($id, $data->name)) {
-            $data->courseid = $id;
-            $data->timecreated = time();
+        if ($itemid == 0) {
+            // A new task to add.
+            if (!self::name_exists($id, $data->name)) {
+                $data->courseid = $id;
+                $data->timecreated = time();
+                $data->timemodified = time();
+                return $DB->insert_record('tool_richardnz', $data);
+            }
+            // Duplicate task name.
+            return -1;
+        } else {
+            // A task to update.
+            $data->id = $itemid;
             $data->timemodified = time();
-            return $DB->insert_record('tool_richardnz', $data);
+            $DB->update_record('tool_richardnz', $data);
+            return $itemid;
         }
-        return -1;
     }
     /**
      * Check task name for duplicate
@@ -125,14 +134,4 @@ class table_data {
         return $DB->get_record('tool_richardnz', ['id' => $id], '*',
                 MUST_EXIST);
     }
-
-    new function here..........
-
-            // Update the existing record with the data.
-            $data->id = $itemid;
-            $data->timemodified = time();
-            $DB->update_record('tool_richardnz', $data);
-            return $itemid;
-        }
-
 }
