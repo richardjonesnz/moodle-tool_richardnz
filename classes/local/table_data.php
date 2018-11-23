@@ -50,9 +50,11 @@ class table_data {
     /**
      * Return data for the table rows
      * @param integer $id - relevant course id.
+     * @param boolean $canedit if true use can edit entries
+     * @param boolean $candelete if true use can delete entries
      * @return object - data for the mustache renderer
      */
-    public static function get_table_data($id) {
+    public static function get_table_data($id, $canedit, $candelete) {
         global $DB;
 
         $records = $DB->get_records('tool_richardnz', ['courseid' => $id], null, 'id, courseid, name, completed, priority, timecreated, timemodified');
@@ -74,11 +76,18 @@ class table_data {
             $data['timecreated'] = $record->timecreated;
             $data['timemodified'] = $record->timemodified;
             // Add the edit link.
-            $url = new \moodle_url('edit.php',
-                    ['id' => $record->courseid, 'itemid' => $record->id]);
-            $data['editlink'] = \html_writer::link($url,
-                    get_string('editlink', 'tool_richardnz'));
-
+            if ($canedit) {
+                $url = new \moodle_url('edit.php',
+                        ['id' => $record->courseid, 'itemid' => $record->id]);
+                $data['editlink'] = \html_writer::link($url,
+                        get_string('editlink', 'tool_richardnz'));
+            }
+            if ($candelete) {
+                $url = new \moodle_url('edit.php',
+                        ['id' => $record->courseid, 'itemid' => -$record->id]);
+                $data['deletelink'] = \html_writer::link($url,
+                        get_string('deletelink', 'tool_richardnz'));
+            }
             $table->tabledata[] = $data;
         }
 

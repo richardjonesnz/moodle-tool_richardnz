@@ -65,5 +65,13 @@ $capabilities = array(
         'archetypes' => array (
             'editingteacher' => CAP_ALLOW
         ),
+    ),
+    'tool/richardnz:delete' => array (
+        'riskbitmask' => RISK_DATALOSS,
+        'captype' => 'write',
+        'contextlevel' => CONTEXT_COURSE,
+        'archetypes' => array (
+            'editingteacher' => CAP_ALLOW
+        ),
     )
 );

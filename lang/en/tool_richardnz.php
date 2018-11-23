@@ -33,9 +33,11 @@ $string['param'] = '<p>The parameter is <b>{$a}</b></p>';
 $string['index_header'] = 'Main page';
 $string['add_link'] = 'Add new task';
 $string['editlink'] = 'edit';
-$string['action'] = 'Action';
+$string['deletelink'] = 'delete';
+$string['action'] = 'Actions';
 $string['taskadded'] = 'Task added';
 $string['taskupdated'] = 'Task updated';
+$string['taskdeleted'] = 'Task deleted';
 
 // Strings for data table.
 $string['tasks'] = 'Tasks';
@@ -50,6 +52,7 @@ $string['timemodified'] = 'Last modified';
 // Capabilities.
 $string['richardnz:view'] = 'View tasks list';
 $string['richardnz:edit'] = 'Edit tasks list';
+$string['richardnz:delete'] = 'Delete task';
 
 // Errors/warnings
 $string['nopermission'] = 'Sorry you do not have permission to view that page';
@@ -58,3 +61,4 @@ $string['taskduplicate'] = 'No change: a task with that name already exists.';
 $string['edit_header'] = 'Add or edit tasks';
 $string['edit_title'] = 'Edit a task';
 $string['add_title'] = 'Add a new task';
+$string['delete_title'] = 'Delete a task';

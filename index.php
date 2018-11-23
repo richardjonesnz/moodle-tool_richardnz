@@ -54,7 +54,9 @@ echo get_string('greeting', 'tool_richardnz');
 // Verify user has capability to view.
 if (has_capability('tool/richardnz:view', $context)) {
     // Get some task data.
-    $data = table_data::get_table_data($id);
+    $canedit = has_capability('tool/richardnz:edit', $context);
+    $candelete = has_capability('tool/richardnz:edit', $context);
+    $data = table_data::get_table_data($id, $canedit, $candelete);
     echo $OUTPUT->render_from_template('tool_richardnz/tasks_table', $data);
     $link = new moodle_url('/admin/tool/richardnz/edit.php', ['id' => $id]);
     echo html_writer::link($link, get_string('add_link', 'tool_richardnz'));
