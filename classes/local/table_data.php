@@ -69,7 +69,8 @@ class table_data {
             $data = array();
             $data['id'] = $record->id;
             $data['courseid'] = $record->courseid;
-            $data['name'] = $record->name;
+            // Contains user input, clean with format_string.
+            $data['name'] = format_string($record->name);
             $data['priority'] = $record->priority;
             $data['completed'] =
                     $record->completed == 1 ? 'yes' : 'no';

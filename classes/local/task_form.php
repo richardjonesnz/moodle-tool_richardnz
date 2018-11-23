@@ -36,7 +36,7 @@ class task_form extends \moodleform {
 
         $mform->addElement('text', 'name', get_string('name', 'tool_richardnz'),
                 ['size' => '40']);
-        $mform->setType('name', PARAM_TEXT);
+        $mform->setType('name', PARAM_NOTAGS);
 
         $mform->addElement('advcheckbox', 'completed',
                 get_string('completed', 'tool_richardnz'));
