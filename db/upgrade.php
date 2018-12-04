@@ -55,19 +55,17 @@ function xmldb_tool_richardnz_upgrade($oldversion) {
         // Richardnz savepoint reached.
         upgrade_plugin_savepoint(true, 2018112005, 'tool', 'richardnz');
     }
+    if ($oldversion < 2018120302) {
 
-    if ($oldversion < 2018112006) {
-
-        // Second update adding foreign key for courseid.
-        // Define key courseid_course (foreign-unique) to be added to tool_richardnz.
+        // Define table tool_richardnz to be updated.
         $table = new xmldb_table('tool_richardnz');
-        $key = new xmldb_key('courseid_course', XMLDB_KEY_FOREIGN_UNIQUE, array('courseid'), 'course', array('id'));
 
-        // Launch add key courseid_course.
-        $dbman->add_key($table, $key);
+        // Adding fields to table tool_richardnz.
+        $table->add_field('description', XMLDB_TYPE_TEXT, null, null, null, 'name');
+        $table->add_field('descriptionformat', XMLDB_TYPE_INTEGER, '10', null, null, null, 'description');
 
         // Richardnz savepoint reached.
-        upgrade_plugin_savepoint(true, 2018112006, 'tool', 'richardnz');
+        upgrade_plugin_savepoint(true, 2018120302, 'tool', 'richardnz');
     }
 
     return true;

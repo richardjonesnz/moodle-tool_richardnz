@@ -56,7 +56,8 @@ if (has_capability('tool/richardnz:view', $context)) {
     // Get some task data.
     $canedit = has_capability('tool/richardnz:edit', $context);
     $candelete = has_capability('tool/richardnz:edit', $context);
-    $data = table_data::get_table_data($id, $canedit, $candelete);
+    $data = table_data::get_table_data($id, $canedit, $candelete,
+            $context);
     echo $OUTPUT->render_from_template('tool_richardnz/tasks_table', $data);
     // Add the link to add if the user has permission.
     if (has_capability('tool/richardnz:edit', $context)) {

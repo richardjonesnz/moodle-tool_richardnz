@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'tool_richardnz';
-$plugin->version = 2018112400;
-$plugin->release = 'v1.8'; // Security.
+$plugin->version = 2018120401;
+$plugin->release = 'v1.9'; // Files.
 $plugin->requires = 2017111301;
-$plugin->maturity = MATURITY_ALPHA;
+$plugin->maturity = MATURITY_BETA;

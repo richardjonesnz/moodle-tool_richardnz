@@ -25,7 +25,7 @@
 
 namespace tool_richardnz\local;
 require_once('../../../lib/formslib.php');
-
+use \tool_richardnz\local\utilities;
 defined('MOODLE_INTERNAL') || die;
 
 class task_form extends \moodleform {
@@ -34,9 +34,27 @@ class task_form extends \moodleform {
 
         $mform = $this->_form;
 
-        $mform->addElement('text', 'name', get_string('name', 'tool_richardnz'),
-                ['size' => '40']);
+        $mform->addElement('text', 'name',
+               get_string('name', 'tool_richardnz'),
+               ['size' => '40']);
         $mform->setType('name', PARAM_NOTAGS);
+        $mform->addRule('name', get_string('required'),
+                'required', null, 'client');
+
+        // Editor field options.
+        $options = utilities::get_editor_options(
+                $this->_customdata['context']);
+
+        // NB: Add _editor to your editor field as Moodle
+        // depends on this convention for processing it.
+        $mform->addElement('editor', 'description_editor',
+                get_string('description', 'tool_richardnz'),
+                null, $options);
+
+        // Remember stick with this naming style
+        $mform->setType('description_editor', PARAM_RAW);
+        $mform->addRule('description_editor', get_string('required'),
+                'required', null, 'client');
 
         $mform->addElement('advcheckbox', 'completed',
                 get_string('completed', 'tool_richardnz'));
@@ -48,5 +66,25 @@ class task_form extends \moodleform {
         $mform->setType('itemid', PARAM_INT);
 
         $this->add_action_buttons($cancel = true);
+    }
+    // Massage the editor data for displaying on the form
+    function data_preprocessing(&$default_values) {
+        if ($this->current->instance) {
+            $context = $this->_customdata['context'];
+            $itemid = $this->_customdata['itemid'];
+            $pagecontentsoptions = utilities::get_editor_options(
+                    $context);
+            $default_values = (object) $default_values;
+            $default_values =
+                    file_prepare_standard_editor(
+                        $default_values,
+                        'description',
+                        $soptions,
+                        $context,
+                        'tool_richardnz',
+                        'description',
+                        $itemid);
+            $default_values = (array) $default_values;
+        }
     }
 }

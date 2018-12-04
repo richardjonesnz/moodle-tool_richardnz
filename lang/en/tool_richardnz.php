@@ -43,7 +43,8 @@ $string['taskdeleted'] = 'Task deleted';
 $string['tasks'] = 'Tasks';
 $string['id'] = 'Task id';
 $string['courseid'] = 'Course id';
-$string['name'] = 'Description';
+$string['name'] = 'Task name';
+$string['description'] = 'Description of the task';
 $string['priority'] = 'Priority';
 $string['completed'] = 'Completed';
 $string['timecreated'] = 'Time created';
@@ -57,6 +58,7 @@ $string['richardnz:delete'] = 'Delete task';
 // Errors/warnings
 $string['nopermission'] = 'Sorry you do not have permission to view that page';
 $string['taskduplicate'] = 'No change: a task with that name already exists.';
+
 // edit page.
 $string['edit_header'] = 'Add or edit tasks';
 $string['edit_title'] = 'Edit a task';

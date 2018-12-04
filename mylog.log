@@ -1,180 +1,102 @@
-Why the problem bro moodle_url Object
+Post update update: stdClass Object
 (
-    [scheme:protected] => http
-    [host:protected] => localhost
-    [port:protected] => 
-    [user:protected] => 
-    [pass:protected] => 
-    [path:protected] => /moodle/admin/tool/richardnz/edit.php
-    [slashargument:protected] => 
-    [anchor:protected] => 
-    [params:protected] => Array
+    [name] => new
+    [description_editor] => Array
         (
-            [id] => 5
-            [itemid] => 0
+            [text] => <p>new</p><p><img src="http://localhost/moodle/draftfile.php/5/user/draft/29121419/lightbulb.png" alt="bulb" width="200" height="198" class="img-responsive atto_image_button_text-bottom"><br></p>
+            [format] => 1
+            [itemid] => 29121419
         )
 
+    [completed] => 0
+    [id] => 16
+    [itemid] => 16
+    [submitbutton] => Save changes
+    [timemodified] => 1543881984
+    [descriptiontrust] => 0
+    [description] => <p>new</p><p><img src="@@PLUGINFILE@@/lightbulb.png" alt="bulb" width="200" height="198" class="img-responsive atto_image_button_text-bottom"><br></p>
+    [descriptionformat] => 1
 )
 
-Why the problem bro moodle_url Object
+Post update update: stdClass Object
 (
-    [scheme:protected] => http
-    [host:protected] => localhost
-    [port:protected] => 
-    [user:protected] => 
-    [pass:protected] => 
-    [path:protected] => /moodle/admin/tool/richardnz/edit.php
-    [slashargument:protected] => 
-    [anchor:protected] => 
-    [params:protected] => Array
+    [name] => new
+    [description_editor] => Array
         (
-            [id] => 5
-            [itemid] => 0
+            [text] => <p>new</p><p><img src="http://localhost/moodle/draftfile.php/5/user/draft/372269583/lightbulb.png" alt="bulb" width="200" height="198" class="img-responsive atto_image_button_text-bottom"><br></p>
+            [format] => 1
+            [itemid] => 372269583
         )
 
+    [completed] => 0
+    [id] => 16
+    [itemid] => 16
+    [submitbutton] => Save changes
+    [timemodified] => 1543882002
+    [descriptiontrust] => 0
+    [description] => <p>new</p><p><img src="@@PLUGINFILE@@/lightbulb.png" alt="bulb" width="200" height="198" class="img-responsive atto_image_button_text-bottom"><br></p>
+    [descriptionformat] => 1
 )
 
-Why the problem bro moodle_url Object
+Post update new: stdClass Object
 (
-    [scheme:protected] => http
-    [host:protected] => localhost
-    [port:protected] => 
-    [user:protected] => 
-    [pass:protected] => 
-    [path:protected] => /moodle/admin/tool/richardnz/edit.php
-    [slashargument:protected] => 
-    [anchor:protected] => 
-    [params:protected] => Array
+    [name] => ssdgfsdgf
+    [description_editor] => Array
         (
-            [id] => 5
-            [itemid] => 0
+            [text] => <p>sdgfsdgfsdgfsg</p><p><br></p><p><img src="http://localhost/moodle/draftfile.php/5/user/draft/998499203/book.png" alt="book" width="175" height="175" class="img-responsive atto_image_button_text-bottom"><br></p>
+            [format] => 1
+            [itemid] => 998499203
         )
 
+    [completed] => 0
+    [id] => 17
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1543882082
+    [timemodified] => 1543882082
+    [description] => <p>sdgfsdgfsdgfsg</p><p><br></p><p><img src="@@PLUGINFILE@@/book.png" alt="book" width="175" height="175" class="img-responsive atto_image_button_text-bottom"><br></p>
+    [descriptionformat] => 1
+    [descriptiontrust] => 0
 )
 
-Cancelled moodle_url Object
+Post update update: stdClass Object
 (
-    [scheme:protected] => http
-    [host:protected] => localhost
-    [port:protected] => 
-    [user:protected] => 
-    [pass:protected] => 
-    [path:protected] => /moodle/admin/tool/richardnz/edit.php
-    [slashargument:protected] => 
-    [anchor:protected] => 
-    [params:protected] => Array
+    [name] => ssdgfsdgf
+    [description_editor] => Array
         (
-            [id] => 5
-            [itemid] => 0
+            [text] => <p>sdgfsdgfsdgfsg</p><p><br /></p><p><img src="http://localhost/moodle/draftfile.php/5/user/draft/857651857/book.png" alt="book" width="175" height="175" class="img-responsive atto_image_button_text-bottom" /><br /></p>
+            [format] => 1
+            [itemid] => 857651857
         )
 
+    [completed] => 0
+    [id] => 17
+    [itemid] => 17
+    [submitbutton] => Save changes
+    [timemodified] => 1543882141
+    [descriptiontrust] => 
+    [description] => <p>sdgfsdgfsdgfsg</p><p><br /></p><p><img src="@@PLUGINFILE@@/book.png" alt="book" width="175" height="175" class="img-responsive atto_image_button_text-bottom" /><br /></p>
+    [descriptionformat] => 1
 )
 
-Why the problem bro moodle_url Object
+Post update update: stdClass Object
 (
-    [scheme:protected] => http
-    [host:protected] => localhost
-    [port:protected] => 
-    [user:protected] => 
-    [pass:protected] => 
-    [path:protected] => /moodle/admin/tool/richardnz/edit.php
-    [slashargument:protected] => 
-    [anchor:protected] => 
-    [params:protected] => Array
+    [name] => ssdgfsdgf
+    [description_editor] => Array
         (
-            [id] => 5
-            [itemid] => 9
+            [text] => <p>sdgfsdgfsdgfsg</p><p><br /></p><p><img src="http://localhost/moodle/draftfile.php/5/user/draft/189490018/book.png" alt="book" width="175" height="175" class="img-responsive atto_image_button_text-bottom" /><br /></p>
+            [format] => 1
+            [itemid] => 189490018
         )
 
-)
-
-Why the problem bro moodle_url Object
-(
-    [scheme:protected] => http
-    [host:protected] => localhost
-    [port:protected] => 
-    [user:protected] => 
-    [pass:protected] => 
-    [path:protected] => /moodle/admin/tool/richardnz/edit.php
-    [slashargument:protected] => 
-    [anchor:protected] => 
-    [params:protected] => Array
-        (
-            [id] => 5
-            [itemid] => 9
-        )
-
-)
-
-Why the problem bro moodle_url Object
-(
-    [scheme:protected] => http
-    [host:protected] => localhost
-    [port:protected] => 
-    [user:protected] => 
-    [pass:protected] => 
-    [path:protected] => /moodle/admin/tool/richardnz/edit.php
-    [slashargument:protected] => 
-    [anchor:protected] => 
-    [params:protected] => Array
-        (
-            [id] => 5
-            [itemid] => 9
-        )
-
-)
-
-Why the problem bro moodle_url Object
-(
-    [scheme:protected] => http
-    [host:protected] => localhost
-    [port:protected] => 
-    [user:protected] => 
-    [pass:protected] => 
-    [path:protected] => /moodle/admin/tool/richardnz/edit.php
-    [slashargument:protected] => 
-    [anchor:protected] => 
-    [params:protected] => Array
-        (
-            [id] => 5
-            [itemid] => 9
-        )
-
-)
-
-Cancelled moodle_url Object
-(
-    [scheme:protected] => http
-    [host:protected] => localhost
-    [port:protected] => 
-    [user:protected] => 
-    [pass:protected] => 
-    [path:protected] => /moodle/admin/tool/richardnz/edit.php
-    [slashargument:protected] => 
-    [anchor:protected] => 
-    [params:protected] => Array
-        (
-            [id] => 5
-            [itemid] => 9
-        )
-
-)
-
-Why the problem bro moodle_url Object
-(
-    [scheme:protected] => http
-    [host:protected] => localhost
-    [port:protected] => 
-    [user:protected] => 
-    [pass:protected] => 
-    [path:protected] => /moodle/admin/tool/richardnz/edit.php
-    [slashargument:protected] => 
-    [anchor:protected] => 
-    [params:protected] => Array
-        (
-            [id] => 5
-            [itemid] => 9
-        )
-
+    [completed] => 0
+    [id] => 17
+    [itemid] => 17
+    [submitbutton] => Save changes
+    [timemodified] => 1543882210
+    [descriptiontrust] => 
+    [description] => <p>sdgfsdgfsdgfsg</p><p><br /></p><p><img src="@@PLUGINFILE@@/book.png" alt="book" width="175" height="175" class="img-responsive atto_image_button_text-bottom" /><br /></p>
+    [descriptionformat] => 1
 )
 

@@ -25,6 +25,7 @@
 use \tool_richardnz\local\debugging;
 use \tool_richardnz\local\task_form;
 use \tool_richardnz\local\table_data;
+use \tool_richardnz\local\utilities;
 use \core\output\notification;
 
 require_once(__DIR__ . '/../../../config.php');
@@ -59,13 +60,21 @@ $PAGE->set_url($url);
 $PAGE->set_pagelayout('report');
 $PAGE->set_title($title);
 $PAGE->set_heading(get_string('edit_header', 'tool_richardnz'));
+
+$options = utilities::get_editor_options($context);
 $return_index = new moodle_url('/admin/tool/richardnz/index.php',
         ['id' => $id]);
 require_login(get_course($id));
+$mform = new task_form(null, ['id' => $id, 'itemid' => $itemid,
+        'context' => $context]);
 
-$mform = new task_form(null, ['id' => $id, 'itemid' => $itemid]);
-
+// We have existing data in the database.
 if ($itemid > 0) {
+    // Process the editor field data.
+    $data = file_prepare_standard_editor( $data, 'description',
+            $options, $context, 'tool_richardnz', 'description',
+            $itemid);
+
     $mform->set_data($data);
 }
 
@@ -89,7 +98,9 @@ if ($itemid < 0) {
 
 if ($data = $mform->get_data()) {
     // We have data add/update the task.
-    $success = table_data::save_table_data($id, $itemid, $data);
+    $data->id =- null;
+    $success = table_data::save_table_data($id, $itemid, $data,
+            $context, $options);
     if ($success == -1) {
         redirect($return_index, get_string('taskduplicate', 'tool_richardnz'), 2,
                 notification::NOTIFY_ERROR);

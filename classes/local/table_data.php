@@ -23,10 +23,10 @@
  *
  */
 
-
 namespace tool_richardnz\local;
 defined('MOODLE_INTERNAL') || die;
 use \tool_richardnz\local\debugging;
+use \tool_richardnz\local\utilities;
 class table_data {
 
     /**
@@ -39,6 +39,7 @@ class table_data {
         $headerdata[] = get_string('id', 'tool_richardnz');
         $headerdata[] = get_string('courseid', 'tool_richardnz');
         $headerdata[] = get_string('name', 'tool_richardnz');
+        $headerdata[] = get_string('description', 'tool_richardnz');
         $headerdata[] = get_string('priority', 'tool_richardnz');
         $headerdata[] = get_string('completed', 'tool_richardnz');
         $headerdata[] = get_string('timecreated', 'tool_richardnz');
@@ -52,12 +53,14 @@ class table_data {
      * @param integer $id - relevant course id.
      * @param boolean $canedit if true use can edit entries
      * @param boolean $candelete if true use can delete entries
+     * @param stdClass $context
      * @return object - data for the mustache renderer
      */
-    public static function get_table_data($id, $canedit, $candelete) {
+    public static function get_table_data($id, $canedit, $candelete,
+            $context) {
         global $DB;
 
-        $records = $DB->get_records('tool_richardnz', ['courseid' => $id], null, 'id, courseid, name, completed, priority, timecreated, timemodified');
+        $records = $DB->get_records('tool_richardnz', ['courseid' => $id], null, 'id, courseid, name, description, completed, priority, timecreated, timemodified');
 
         $table = new \stdClass();
         $table->class = 'tool_richardnz_table';
@@ -71,6 +74,11 @@ class table_data {
             $data['courseid'] = $record->courseid;
             // Contains user input, clean with format_string.
             $data['name'] = format_string($record->name);
+            $description = file_rewrite_pluginfile_urls(
+                    $record->description, 'pluginfile.php',
+                    $context->id, 'tool_richardnz', 'description',
+                    $record->id);
+            $data['description'] = format_text($description);
             $data['priority'] = $record->priority;
             $data['completed'] =
                     $record->completed == 1 ? 'yes' : 'no';
@@ -107,9 +115,12 @@ class table_data {
      * @param integer $id - relevant course id.
      * @param integer $itemid - relevant task id.
      * @param object data - data from the edit form.
+     * @param stdClass $context
+     * @param array $options - editor field options
      * @return integer - id of inserted record.
      */
-    public static function save_table_data($id, $itemid, $data) {
+    public static function save_table_data($id, $itemid, $data,
+            $context, $options) {
         global $DB;
         if ($itemid == 0) {
             // A new task to add.
@@ -117,7 +128,24 @@ class table_data {
                 $data->courseid = $id;
                 $data->timecreated = time();
                 $data->timemodified = time();
-                return $DB->insert_record('tool_richardnz', $data);
+                $data->description = ' ';
+                $data->descriptionformat = FORMAT_HTML;
+                $itemid = $DB->insert_record('tool_richardnz', $data);
+
+                // We have the record id now. Massage the data.
+                $data->id = $itemid;
+                $data = file_postupdate_standard_editor(
+                        $data,
+                        'description',  // editor field.
+                        $options,
+                        $context,
+                        'tool_richardnz',
+                        'description', // file area.
+                        $itemid);
+                debugging::logit('Post update new: ', $data);
+                // Update the record with full editor data
+                $DB->update_record('tool_richardnz', $data);
+                return $data->id;
             }
             // Duplicate task name.
             return -1;
@@ -125,6 +153,16 @@ class table_data {
             // A task to update.
             $data->id = $itemid;
             $data->timemodified = time();
+            // Update editor field contents.
+            $data = file_postupdate_standard_editor(
+                        $data,
+                        'description',
+                        $options,
+                        $context,
+                        'tool_richardnz',
+                        'description',
+                        $itemid);
+            debugging::logit('Post update update: ', $data);
             $DB->update_record('tool_richardnz', $data);
             return $itemid;
         }
