@@ -34,9 +34,10 @@ class utilities {
      */
     public static function get_editor_options($context) {
         global $CFG;
-        return ['subdirs' => true, 'maxbytes' => $CFG->maxbytes,
-                'maxfiles' => -1, 'changeformat' => 1,
-                'context' => $context, 'noclean' => true,
+        return ['subdirs' => true,
+                'maxbytes' => $CFG->maxbytes,
+                'maxfiles' => -1,
+                'context' => $context,
                 'trusttext' => true];
     }
 }

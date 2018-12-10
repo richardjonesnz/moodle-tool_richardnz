@@ -39,7 +39,9 @@ function tool_richardnz_extend_navigation_course($navigation, $course,
         new pix_icon('icon', '', 'tool_richardnz'));
     }
 }
-
+function tool_richardnz_get_file_info($browser, $areas, $course, $cm, $context, $filearea, $itemid, $filepath, $filename) {
+    return null;
+}
 /**
  * Returns the lists of all browsable file areas.
  *
@@ -48,7 +50,7 @@ function tool_richardnz_extend_navigation_course($navigation, $course,
  * @param stdClass $context
  * @return array of [(string)filearea] => (string)description
  */
-function richardnz_get_file_areas($course, $cm, $context) {
+function tool_richardnz_get_file_areas($course, $cm, $context) {
     return ['description' => 'for task description'];
 }
 
@@ -63,23 +65,18 @@ function richardnz_get_file_areas($course, $cm, $context) {
  * @param bool $forcedownload whether or not force download
  * @param array $options additional options affecting the file serving
  */
-function richardnz_pluginfile($course, $cm, $context, $filearea,
+function tool_richardnz_pluginfile($course, $cm, $context, $filearea,
         array $args, $forcedownload, array $options = array()) {
     global $DB, $CFG;
-
-    if ($context->contextlevel != CONTEXT_COURSE) {
-        send_file_not_found();
-    }
 
     require_login($course, true, $cm);
 
     $fs = get_file_storage();
     $relativepath = implode('/', $args);
     $fullpath = "/$context->id/tool_richardnz/$filearea/$relativepath";
-    $debugging::logit('Plugin path: ', $fullpath);
     if (!$file = $fs->get_file_by_hash(sha1($fullpath)) or $file->is_directory()) {
         return false;
     }
     // Finally send the file.
-    send_stored_file($file, 0, 0, $forcedownload, $options);
+    send_stored_file($file);
 }

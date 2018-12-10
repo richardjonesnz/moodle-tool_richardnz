@@ -54,25 +54,26 @@ $url = new moodle_url('/admin/tool/richardnz/edit.php',
             ['id' => $id, 'itemid' => $itemid]);
 
 // Setup the page.
-$context = context_course::instance($id);
-$PAGE->set_context($context);
+$context_course = context_course::instance($id);
+$context_system = context_system::instance();
+$PAGE->set_context($context_system);
 $PAGE->set_url($url);
 $PAGE->set_pagelayout('report');
 $PAGE->set_title($title);
 $PAGE->set_heading(get_string('edit_header', 'tool_richardnz'));
 
-$options = utilities::get_editor_options($context);
+$options = utilities::get_editor_options($context_course);
 $return_index = new moodle_url('/admin/tool/richardnz/index.php',
         ['id' => $id]);
 require_login(get_course($id));
 $mform = new task_form(null, ['id' => $id, 'itemid' => $itemid,
-        'context' => $context]);
+        'context' => $context_course]);
 
 // We have existing data in the database.
 if ($itemid > 0) {
     // Process the editor field data.
     $data = file_prepare_standard_editor( $data, 'description',
-            $options, $context, 'tool_richardnz', 'description',
+            $options, $context_course, 'tool_richardnz', 'description',
             $itemid);
 
     $mform->set_data($data);
@@ -86,7 +87,7 @@ if ($mform->is_cancelled()) {
 // Check for delete link.
 if ($itemid < 0) {
     // Additional capability required to delete a task
-    if (has_capability('tool/richardnz:delete', $context)) {
+    if (has_capability('tool/richardnz:delete', $context_course)) {
         require_sesskey();
         $DB->delete_records('tool_richardnz', ['id' => abs($itemid)]);
         redirect($return_index, get_string('taskdeleted', 'tool_richardnz'), 2,
@@ -100,16 +101,19 @@ if ($data = $mform->get_data()) {
     // We have data add/update the task.
     $data->id =- null;
     $success = table_data::save_table_data($id, $itemid, $data,
-            $context, $options);
+            $context_course, $options);
     if ($success == -1) {
-        redirect($return_index, get_string('taskduplicate', 'tool_richardnz'), 2,
+        redirect($return_index,
+                get_string('taskduplicate', 'tool_richardnz'), 2,
                 notification::NOTIFY_ERROR);
     } else {
         if ($itemid == 0) {
-            redirect($return_index, get_string('taskadded', 'tool_richardnz'), 2,
+            redirect($return_index,
+                    get_string('taskadded', 'tool_richardnz'), 2,
                     notification::NOTIFY_SUCCESS);
         } else {
-            redirect($return_index, get_string('taskupdated', 'tool_richardnz'),
+            redirect($return_index,
+                    get_string('taskupdated', 'tool_richardnz'),
                     2, notification::NOTIFY_SUCCESS);
         }
     }
@@ -119,7 +123,7 @@ echo $OUTPUT->header();
 echo $OUTPUT->heading($title, 2);
 
 // Verify user has capability to view the edit page.
-if (has_capability('tool/richardnz:edit', $context)) {
+if (has_capability('tool/richardnz:edit', $context_course)) {
     $mform->display();
 } else {
     echo get_string('nopermission', 'tool_richardnz');

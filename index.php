@@ -36,9 +36,9 @@ $url = new moodle_url('/admin/tool/richardnz/index.php', ['id' => $id]);
 $title = get_string('pluginname', 'tool_richardnz');
 
 // Setup the page.
-// $context = context_system::instance();
-$context= context_course::instance($id);
-$PAGE->set_context($context);
+$context_course = context_course::instance($id);
+$context_system = context_system::instance();
+$PAGE->set_context($context_system);
 $PAGE->set_url($url);
 $PAGE->set_pagelayout('report');
 $PAGE->set_title($title);
@@ -50,17 +50,17 @@ require_login();
 echo $OUTPUT->header();
 echo $OUTPUT->heading($title, 2);
 echo get_string('greeting', 'tool_richardnz');
-
 // Verify user has capability to view.
-if (has_capability('tool/richardnz:view', $context)) {
+if (has_capability('tool/richardnz:view', $context_course)) {
     // Get some task data.
-    $canedit = has_capability('tool/richardnz:edit', $context);
-    $candelete = has_capability('tool/richardnz:edit', $context);
+    $canedit = has_capability('tool/richardnz:edit', $context_course);
+    $candelete = has_capability('tool/richardnz:edit', $context_course);
     $data = table_data::get_table_data($id, $canedit, $candelete,
-            $context);
+            $context_course);
     echo $OUTPUT->render_from_template('tool_richardnz/tasks_table', $data);
+
     // Add the link to add if the user has permission.
-    if (has_capability('tool/richardnz:edit', $context)) {
+    if (has_capability('tool/richardnz:edit', $context_course)) {
         $link = new moodle_url('/admin/tool/richardnz/edit.php',
                 ['id' => $id]);
         echo html_writer::link($link, get_string('add_link', 'tool_richardnz'));

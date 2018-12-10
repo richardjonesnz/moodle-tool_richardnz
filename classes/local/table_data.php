@@ -50,17 +50,20 @@ class table_data {
     }
     /**
      * Return data for the table rows
-     * @param integer $id - relevant course id.
+     * @param integer $courseid - relevant course id.
      * @param boolean $canedit if true use can edit entries
      * @param boolean $candelete if true use can delete entries
      * @param stdClass $context
      * @return object - data for the mustache renderer
      */
-    public static function get_table_data($id, $canedit, $candelete,
+    public static function get_table_data($courseid, $canedit, $candelete,
             $context) {
         global $DB;
 
-        $records = $DB->get_records('tool_richardnz', ['courseid' => $id], null, 'id, courseid, name, description, completed, priority, timecreated, timemodified');
+        $records = $DB->get_records('tool_richardnz',
+            ['courseid' => $courseid], null, 'id, courseid, name,
+            description, completed, priority, timecreated,
+            timemodified');
 
         $table = new \stdClass();
         $table->class = 'tool_richardnz_table';
@@ -68,7 +71,13 @@ class table_data {
         $table->tableheaders = self::get_table_headers();
         $table->tabledata = array();
 
+        $formatoptions = new \stdClass;
+        $formatoptions->noclean = true;
+        $formatoptions->overflowdiv = true;
+        $formatoptions->context = $context;
+
         foreach($records as $record) {
+            debugging::logit('Record data: ', $record);
             $data = array();
             $data['id'] = $record->id;
             $data['courseid'] = $record->courseid;
@@ -78,7 +87,8 @@ class table_data {
                     $record->description, 'pluginfile.php',
                     $context->id, 'tool_richardnz', 'description',
                     $record->id);
-            $data['description'] = format_text($description);
+            $data['description'] = format_text($description, FORMAT_HTML,
+                    $formatoptions);
             $data['priority'] = $record->priority;
             $data['completed'] =
                     $record->completed == 1 ? 'yes' : 'no';
@@ -142,7 +152,6 @@ class table_data {
                         'tool_richardnz',
                         'description', // file area.
                         $itemid);
-                debugging::logit('Post update new: ', $data);
                 // Update the record with full editor data
                 $DB->update_record('tool_richardnz', $data);
                 return $data->id;
@@ -162,7 +171,6 @@ class table_data {
                         'tool_richardnz',
                         'description',
                         $itemid);
-            debugging::logit('Post update update: ', $data);
             $DB->update_record('tool_richardnz', $data);
             return $itemid;
         }

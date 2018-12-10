@@ -42,14 +42,13 @@ class task_form extends \moodleform {
                 'required', null, 'client');
 
         // Editor field options.
-        $options = utilities::get_editor_options(
-                $this->_customdata['context']);
+        $descriptionoptions = utilities::get_editor_options($this->_customdata['context']);
 
         // NB: Add _editor to your editor field as Moodle
         // depends on this convention for processing it.
         $mform->addElement('editor', 'description_editor',
                 get_string('description', 'tool_richardnz'),
-                null, $options);
+                null, $descriptionoptions);
 
         // Remember stick with this naming style
         $mform->setType('description_editor', PARAM_RAW);
@@ -66,25 +65,5 @@ class task_form extends \moodleform {
         $mform->setType('itemid', PARAM_INT);
 
         $this->add_action_buttons($cancel = true);
-    }
-    // Massage the editor data for displaying on the form
-    function data_preprocessing(&$default_values) {
-        if ($this->current->instance) {
-            $context = $this->_customdata['context'];
-            $itemid = $this->_customdata['itemid'];
-            $pagecontentsoptions = utilities::get_editor_options(
-                    $context);
-            $default_values = (object) $default_values;
-            $default_values =
-                    file_prepare_standard_editor(
-                        $default_values,
-                        'description',
-                        $soptions,
-                        $context,
-                        'tool_richardnz',
-                        'description',
-                        $itemid);
-            $default_values = (array) $default_values;
-        }
     }
 }

@@ -1,102 +1,1728 @@
-Post update update: stdClass Object
+Record data: stdClass Object
 (
-    [name] => new
-    [description_editor] => Array
-        (
-            [text] => <p>new</p><p><img src="http://localhost/moodle/draftfile.php/5/user/draft/29121419/lightbulb.png" alt="bulb" width="200" height="198" class="img-responsive atto_image_button_text-bottom"><br></p>
-            [format] => 1
-            [itemid] => 29121419
-        )
-
-    [completed] => 0
-    [id] => 16
-    [itemid] => 16
-    [submitbutton] => Save changes
-    [timemodified] => 1543881984
-    [descriptiontrust] => 0
-    [description] => <p>new</p><p><img src="@@PLUGINFILE@@/lightbulb.png" alt="bulb" width="200" height="198" class="img-responsive atto_image_button_text-bottom"><br></p>
-    [descriptionformat] => 1
-)
-
-Post update update: stdClass Object
-(
-    [name] => new
-    [description_editor] => Array
-        (
-            [text] => <p>new</p><p><img src="http://localhost/moodle/draftfile.php/5/user/draft/372269583/lightbulb.png" alt="bulb" width="200" height="198" class="img-responsive atto_image_button_text-bottom"><br></p>
-            [format] => 1
-            [itemid] => 372269583
-        )
-
-    [completed] => 0
-    [id] => 16
-    [itemid] => 16
-    [submitbutton] => Save changes
-    [timemodified] => 1543882002
-    [descriptiontrust] => 0
-    [description] => <p>new</p><p><img src="@@PLUGINFILE@@/lightbulb.png" alt="bulb" width="200" height="198" class="img-responsive atto_image_button_text-bottom"><br></p>
-    [descriptionformat] => 1
-)
-
-Post update new: stdClass Object
-(
-    [name] => ssdgfsdgf
-    [description_editor] => Array
-        (
-            [text] => <p>sdgfsdgfsdgfsg</p><p><br></p><p><img src="http://localhost/moodle/draftfile.php/5/user/draft/998499203/book.png" alt="book" width="175" height="175" class="img-responsive atto_image_button_text-bottom"><br></p>
-            [format] => 1
-            [itemid] => 998499203
-        )
-
-    [completed] => 0
-    [id] => 17
-    [itemid] => 0
-    [submitbutton] => Save changes
+    [id] => 1
     [courseid] => 4
-    [timecreated] => 1543882082
-    [timemodified] => 1543882082
-    [description] => <p>sdgfsdgfsdgfsg</p><p><br></p><p><img src="@@PLUGINFILE@@/book.png" alt="book" width="175" height="175" class="img-responsive atto_image_button_text-bottom"><br></p>
-    [descriptionformat] => 1
-    [descriptiontrust] => 0
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
 )
 
-Post update update: stdClass Object
+Record data: stdClass Object
 (
-    [name] => ssdgfsdgf
-    [description_editor] => Array
-        (
-            [text] => <p>sdgfsdgfsdgfsg</p><p><br /></p><p><img src="http://localhost/moodle/draftfile.php/5/user/draft/857651857/book.png" alt="book" width="175" height="175" class="img-responsive atto_image_button_text-bottom" /><br /></p>
-            [format] => 1
-            [itemid] => 857651857
-        )
-
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
     [completed] => 0
-    [id] => 17
-    [itemid] => 17
-    [submitbutton] => Save changes
-    [timemodified] => 1543882141
-    [descriptiontrust] => 
-    [description] => <p>sdgfsdgfsdgfsg</p><p><br /></p><p><img src="@@PLUGINFILE@@/book.png" alt="book" width="175" height="175" class="img-responsive atto_image_button_text-bottom" /><br /></p>
-    [descriptionformat] => 1
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
 )
 
-Post update update: stdClass Object
+Record data: stdClass Object
 (
-    [name] => ssdgfsdgf
-    [description_editor] => Array
-        (
-            [text] => <p>sdgfsdgfsdgfsg</p><p><br /></p><p><img src="http://localhost/moodle/draftfile.php/5/user/draft/189490018/book.png" alt="book" width="175" height="175" class="img-responsive atto_image_button_text-bottom" /><br /></p>
-            [format] => 1
-            [itemid] => 189490018
-        )
-
+    [id] => 20
+    [courseid] => 4
+    [name] => xcvxcv sdfsd fsdfsdfsd
+    [description] => <p>s dfsdf sdf sdf sdf sfsd fsf sdfsd fsd ffds</p><p><a href="http://localhost/moodle/admin/tool/richardnz/edit.php?id=4">http://localhost/moodle/admin/tool/richardnz/edit.php?id=4</a><br></p><p><img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="gdf" width="100" height="150" class="img-responsive atto_image_button_text-bottom"><br></p>
     [completed] => 0
-    [id] => 17
-    [itemid] => 17
-    [submitbutton] => Save changes
-    [timemodified] => 1543882210
-    [descriptiontrust] => 
-    [description] => <p>sdgfsdgfsdgfsg</p><p><br /></p><p><img src="@@PLUGINFILE@@/book.png" alt="book" width="175" height="175" class="img-responsive atto_image_button_text-bottom" /><br /></p>
-    [descriptionformat] => 1
+    [priority] => 1
+    [timecreated] => 1543889571
+    [timemodified] => 1543890996
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 21
+    [courseid] => 4
+    [name] => zxczcx zc zcx zcx
+    [description] => <p>zxc zzxc zc z zc z</p><p><img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cup" width="100" height="150" class="img-responsive atto_image_button_text-bottom"><br></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543897254
+    [timemodified] => 1543897254
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 21
+    [courseid] => 4
+    [name] => zxczcx zc zcx zcx
+    [description] => <p>zxc zzxc zc z zc z</p><p><img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cup" width="100" height="150" class="img-responsive atto_image_button_text-bottom" /><br /></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543897254
+    [timemodified] => 1543897271
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 21
+    [courseid] => 4
+    [name] => zxczcx zc zcx zcx
+    [description] => <p>zxc zzxc zc z zc z</p><p><img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cup" width="100" height="150" class="img-responsive atto_image_button_text-bottom" /><br /></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543897254
+    [timemodified] => 1543897355
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 21
+    [courseid] => 4
+    [name] => zxczcx zc zcx zcx
+    [description] => <p>zxc zzxc zc z zc z</p><p><img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cup" width="100" height="150" class="img-responsive atto_image_button_text-bottom" /><br /></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543897254
+    [timemodified] => 1543897355
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 21
+    [courseid] => 4
+    [name] => zxczcx zc zcx zcx
+    [description] => <p>zxc zzxc zc z zc z</p><p><img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cup" width="100" height="150" class="img-responsive atto_image_button_text-bottom" /><br /></p>
+    [completed] => 1
+    [priority] => 1
+    [timecreated] => 1543897254
+    [timemodified] => 1543898071
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 21
+    [courseid] => 4
+    [name] => zxczcx zc zcx zcx
+    [description] => <p>zxc zzxc zc z zc z</p><p><img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cup" width="100" height="150" class="img-responsive atto_image_button_text-bottom" /><br /></p>
+    [completed] => 1
+    [priority] => 1
+    [timecreated] => 1543897254
+    [timemodified] => 1543898071
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 21
+    [courseid] => 4
+    [name] => zxczcx zc zcx zcx
+    [description] => <p>zxc zzxc zc z zc z</p><p><img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cup" width="100" height="150" class="img-responsive atto_image_button_text-bottom" /><br /></p>
+    [completed] => 1
+    [priority] => 1
+    [timecreated] => 1543897254
+    [timemodified] => 1544047483
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 21
+    [courseid] => 4
+    [name] => zxczcx zc zcx zcx
+    [description] => <p>zxc zzxc zc z zc z</p><p><img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cup" width="100" height="150" class="img-responsive atto_image_button_text-bottom" /><br /></p>
+    [completed] => 1
+    [priority] => 1
+    [timecreated] => 1543897254
+    [timemodified] => 1544047623
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 21
+    [courseid] => 4
+    [name] => zxczcx zc zcx zcx
+    [description] => <p>zxc zzxc zc z zc z</p><p><img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cup" width="100" height="150" class="img-responsive atto_image_button_text-bottom" /><br /></p>
+    [completed] => 1
+    [priority] => 1
+    [timecreated] => 1543897254
+    [timemodified] => 1544048076
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 21
+    [courseid] => 4
+    [name] => zxczcx zc zcx zcx
+    [description] => <p>zxc zzxc zc z zc z</p><p><img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cup" width="100" height="150" class="img-responsive atto_image_button_text-bottom" /><br /></p>
+    [completed] => 1
+    [priority] => 1
+    [timecreated] => 1543897254
+    [timemodified] => 1544048194
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 21
+    [courseid] => 4
+    [name] => zxczcx zc zcx zcx
+    [description] => <p>zxc zzxc zc z zc z</p><p><img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cup" width="100" height="150" class="img-responsive atto_image_button_text-bottom" /><br /></p>
+    [completed] => 1
+    [priority] => 1
+    [timecreated] => 1543897254
+    [timemodified] => 1544048194
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 21
+    [courseid] => 4
+    [name] => zxczcx zc zcx zcx
+    [description] => <p>zxc zzxc zc z zc z</p><p><img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cup" width="100" height="150" class="img-responsive atto_image_button_text-bottom" /><br /></p>
+    [completed] => 1
+    [priority] => 1
+    [timecreated] => 1543897254
+    [timemodified] => 1544048427
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 21
+    [courseid] => 4
+    [name] => zxczcx zc zcx zcx
+    [description] => <p>zxc zzxc zc z zc z</p><p><img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cup" width="100" height="150" class="img-responsive atto_image_button_text-bottom" /><br /></p>
+    [completed] => 1
+    [priority] => 1
+    [timecreated] => 1543897254
+    [timemodified] => 1544048427
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 21
+    [courseid] => 4
+    [name] => zxczcx zc zcx zcx
+    [description] => <p>zxc zzxc zc z zc z</p><p><img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cup" width="100" height="150" class="img-responsive atto_image_button_text-bottom" /><br /></p>
+    [completed] => 1
+    [priority] => 1
+    [timecreated] => 1543897254
+    [timemodified] => 1544048427
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 21
+    [courseid] => 4
+    [name] => zxczcx zc zcx zcx
+    [description] => <p>zxc zzxc zc z zc z</p><p><img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cup" width="100" height="150" class="img-responsive atto_image_button_text-bottom" /><br /></p>
+    [completed] => 1
+    [priority] => 1
+    [timecreated] => 1543897254
+    [timemodified] => 1544048427
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 21
+    [courseid] => 4
+    [name] => zxczcx zc zcx zcx
+    [description] => <p>zxc zzxc zc z zc z</p><p><img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cup" width="100" height="150" class="img-responsive atto_image_button_text-bottom" /><br /></p>
+    [completed] => 1
+    [priority] => 1
+    [timecreated] => 1543897254
+    [timemodified] => 1544048774
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 21
+    [courseid] => 4
+    [name] => zxczcx zc zcx zcx
+    [description] => <p>zxc zzxc zc z zc z</p><p><img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cup" width="100" height="150" class="img-responsive atto_image_button_text-bottom" /><br /></p>
+    [completed] => 1
+    [priority] => 1
+    [timecreated] => 1543897254
+    [timemodified] => 1544048774
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 21
+    [courseid] => 4
+    [name] => zxczcx zc zcx zcx
+    [description] => <p>zxc zzxc zc z zc z</p><p><img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cup" width="100" height="150" class="img-responsive atto_image_button_text-bottom" /><br /></p>
+    [completed] => 1
+    [priority] => 1
+    [timecreated] => 1543897254
+    [timemodified] => 1544049030
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 21
+    [courseid] => 4
+    [name] => zxczcx zc zcx zcx
+    [description] => <p>zxc zzxc zc z zc z</p><p><img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cup" width="100" height="150" class="img-responsive atto_image_button_text-bottom" /><br /></p>
+    [completed] => 1
+    [priority] => 1
+    [timecreated] => 1543897254
+    [timemodified] => 1544049030
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 21
+    [courseid] => 4
+    [name] => zxczcx zc zcx zcx
+    [description] => <p>zxc zzxc zc z zc z</p><p><img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cup" width="100" height="150" class="img-responsive atto_image_button_text-bottom" /><br /></p>
+    [completed] => 1
+    [priority] => 1
+    [timecreated] => 1543897254
+    [timemodified] => 1544049030
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 22
+    [courseid] => 4
+    [name] => zcxzczcx
+    [description] => <p>zxczcxczcxxcz</p><p><img src="@@PLUGINFILE@@/book.gif" alt="book" width="200" height="200" class="img-responsive atto_image_button_text-bottom"><br></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544049686
+    [timemodified] => 1544049686
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 22
+    [courseid] => 4
+    [name] => zcxzczcx
+    [description] => <p>zxczcxczcxxcz</p><p><img src="@@PLUGINFILE@@/book.gif" alt="book" width="200" height="200" class="img-responsive atto_image_button_text-bottom"><br></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544049686
+    [timemodified] => 1544049686
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 22
+    [courseid] => 4
+    [name] => zcxzczcx
+    [description] => <p>zxczcxczcxxcz</p><p><img src="@@PLUGINFILE@@/book.gif" alt="book" width="200" height="200" class="img-responsive atto_image_button_text-bottom"><br></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544049686
+    [timemodified] => 1544049686
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 22
+    [courseid] => 4
+    [name] => zcxzczcx
+    [description] => <p>zxczcxczcxxcz</p><p><img src="@@PLUGINFILE@@/book.gif" alt="book" width="200" height="200" class="img-responsive atto_image_button_text-bottom"><br></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544049686
+    [timemodified] => 1544049686
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 22
+    [courseid] => 4
+    [name] => zcxzczcx
+    [description] => <p>zxczcxczcxxcz</p><p><img src="@@PLUGINFILE@@/book.gif" alt="book" width="200" height="200" class="img-responsive atto_image_button_text-bottom"><br></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544049686
+    [timemodified] => 1544049686
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 22
+    [courseid] => 4
+    [name] => zcxzczcx
+    [description] => <p>zxczcxczcxxcz</p><p><img src="@@PLUGINFILE@@/book.gif" alt="book" width="200" height="200" class="img-responsive atto_image_button_text-bottom"><br></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544049686
+    [timemodified] => 1544049686
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 22
+    [courseid] => 4
+    [name] => zcxzczcx
+    [description] => <p>zxczcxczcxxcz</p><p><img src="@@PLUGINFILE@@/book.gif" alt="book" width="200" height="200" class="img-responsive atto_image_button_text-bottom"><br></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544049686
+    [timemodified] => 1544049686
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 23
+    [courseid] => 4
+    [name] => adasdasd
+    [description] => <p>asdads</p><p><img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cvbbcvb" width="100" height="150" class="img-responsive atto_image_button_text-bottom"><br></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544051727
+    [timemodified] => 1544051727
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 23
+    [courseid] => 4
+    [name] => adasdasd
+    [description] => <p>asdads</p><p><img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cvbbcvb" width="100" height="150" class="img-responsive atto_image_button_text-bottom" /><br /></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544051727
+    [timemodified] => 1544051920
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 23
+    [courseid] => 4
+    [name] => adasdasd
+    [description] => <p>asdads</p><p><img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cvbbcvb" width="100" height="150" class="img-responsive atto_image_button_text-bottom" /><br /></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544051727
+    [timemodified] => 1544051920
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 23
+    [courseid] => 4
+    [name] => adasdasd
+    [description] => <p>asdads</p><p><img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cvbbcvb" width="100" height="150" class="img-responsive atto_image_button_text-bottom" /><br /></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544051727
+    [timemodified] => 1544051920
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 23
+    [courseid] => 4
+    [name] => adasdasd
+    [description] => <p>asdads</p><p><img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cvbbcvb" width="100" height="150" class="img-responsive atto_image_button_text-bottom" /><br /></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544051727
+    [timemodified] => 1544051920
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 23
+    [courseid] => 4
+    [name] => adasdasd
+    [description] => <p>asdads</p><p><img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cvbbcvb" width="100" height="150" class="img-responsive atto_image_button_text-bottom" /><br /></p>
+    [completed] => 1
+    [priority] => 1
+    [timecreated] => 1544051727
+    [timemodified] => 1544053265
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 23
+    [courseid] => 4
+    [name] => adasdasd
+    [description] => <p>asdads</p><p><img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cvbbcvb" width="100" height="150" class="img-responsive atto_image_button_text-bottom" /><br /></p>
+    [completed] => 1
+    [priority] => 1
+    [timecreated] => 1544051727
+    [timemodified] => 1544053265
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 23
+    [courseid] => 4
+    [name] => adasdasd
+    [description] => <p>asdads</p><p><img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cvbbcvb" width="100" height="150" class="img-responsive atto_image_button_text-bottom" /><br /></p>
+    [completed] => 1
+    [priority] => 1
+    [timecreated] => 1544051727
+    [timemodified] => 1544053265
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 24
+    [courseid] => 4
+    [name] => asdasdasd
+    [description] => <p>asdasdasd</p><p><img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cup" width="100" height="150" class="img-responsive atto_image_button_text-bottom"><br></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544470826
+    [timemodified] => 1544470826
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 24
+    [courseid] => 4
+    [name] => asdasdasd
+    [description] => <p>asdasdasd</p><p><img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cup" width="100" height="150" class="img-responsive atto_image_button_text-bottom"><br></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544470826
+    [timemodified] => 1544470826
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 24
+    [courseid] => 4
+    [name] => asdasdasd
+    [description] => <p>asdasdasd</p><p><img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cup" width="100" height="150" class="img-responsive atto_image_button_text-bottom"><br></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544470826
+    [timemodified] => 1544470826
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 24
+    [courseid] => 4
+    [name] => asdasdasd
+    [description] => <p>asdasdasd</p><p><img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cup" width="100" height="150" class="img-responsive atto_image_button_text-bottom"><br></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544470826
+    [timemodified] => 1544470826
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 24
+    [courseid] => 4
+    [name] => asdasdasd
+    [description] => <p>asdasdasd</p><p><img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cup" width="100" height="150" class="img-responsive atto_image_button_text-bottom"><br></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544470826
+    [timemodified] => 1544470826
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 24
+    [courseid] => 4
+    [name] => asdasdasd
+    [description] => <p>asdasdasd</p><p><img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cup" width="100" height="150" class="img-responsive atto_image_button_text-bottom"><br></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544470826
+    [timemodified] => 1544470826
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 24
+    [courseid] => 4
+    [name] => asdasdasd
+    [description] => <p>asdasdasd</p><p><img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cup" width="100" height="150" class="img-responsive atto_image_button_text-bottom"><br></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544470826
+    [timemodified] => 1544470826
+)
+
+Record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+Record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Record data: stdClass Object
+(
+    [id] => 24
+    [courseid] => 4
+    [name] => asdasdasd
+    [description] => <p>asdasdasd</p><p><img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cup" width="100" height="150" class="img-responsive atto_image_button_text-bottom"><br></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544470826
+    [timemodified] => 1544470826
 )
 
