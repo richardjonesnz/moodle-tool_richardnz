@@ -77,7 +77,6 @@ class table_data {
         $formatoptions->context = $context;
 
         foreach($records as $record) {
-            debugging::logit('Record data: ', $record);
             $data = array();
             $data['id'] = $record->id;
             $data['courseid'] = $record->courseid;
