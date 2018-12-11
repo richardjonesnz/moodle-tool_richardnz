@@ -56,7 +56,7 @@ echo get_string('greeting', 'tool_richardnz');
 if (has_capability('tool/richardnz:view', $context_course)) {
     // Get some task data.
     $canedit = has_capability('tool/richardnz:edit', $context_course);
-    $candelete = has_capability('tool/richardnz:edit', $context_course);
+    $candelete = has_capability('tool/richardnz:delete', $context_course);
     $data = table_data::get_table_data($id, $canedit, $candelete,
             $context_course);
     echo $renderer->print_table($data);
