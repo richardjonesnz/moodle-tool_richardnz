@@ -67,6 +67,18 @@ function xmldb_tool_richardnz_upgrade($oldversion) {
         // Richardnz savepoint reached.
         upgrade_plugin_savepoint(true, 2018120302, 'tool', 'richardnz');
     }
+    if ($oldversion < 2018121104) {
+
+        // Define table tool_richardnz to be updated.
+        $table = new xmldb_table('tool_richardnz');
+
+        // Adding fields to table tool_richardnz.
+        $table->add_field('attachment', XMLDB_TYPE_INTEGER, '10', null, null, null,
+                'descriptionformat');
+
+        // Richardnz savepoint reached.
+        upgrade_plugin_savepoint(true, 2018121104, 'tool', 'richardnz');
+    }
 
     return true;
 }

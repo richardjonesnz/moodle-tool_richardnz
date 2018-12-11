@@ -38,6 +38,7 @@ $string['action'] = 'Actions';
 $string['taskadded'] = 'Task added';
 $string['taskupdated'] = 'Task updated';
 $string['taskdeleted'] = 'Task deleted';
+$string['attachment'] = 'Attach a file';
 
 // Strings for data table.
 $string['tasks'] = 'Tasks';
@@ -45,6 +46,7 @@ $string['id'] = 'Task id';
 $string['courseid'] = 'Course id';
 $string['name'] = 'Task name';
 $string['description'] = 'Description of the task';
+$string['attached'] = 'Attached file';
 $string['priority'] = 'Priority';
 $string['completed'] = 'Completed';
 $string['timecreated'] = 'Time created';

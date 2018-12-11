@@ -63,6 +63,8 @@ $PAGE->set_title($title);
 $PAGE->set_heading(get_string('edit_header', 'tool_richardnz'));
 
 $options = utilities::get_editor_options($context_course);
+$fileoptions = utilities::get_file_options();
+
 $return_index = new moodle_url('/admin/tool/richardnz/index.php',
         ['id' => $id]);
 require_login(get_course($id));
@@ -71,11 +73,13 @@ $mform = new task_form(null, ['id' => $id, 'itemid' => $itemid,
 
 // We have existing data in the database.
 if ($itemid > 0) {
-    // Process the editor field data.
+    // Process the editor and attachment field data.
     $data = file_prepare_standard_editor( $data, 'description',
             $options, $context_course, 'tool_richardnz', 'description',
             $itemid);
-
+    $data = file_prepare_standard_filemanager($data, 'attachment',
+            $fileoptions, $context_course, 'tool_richardnz', 'attachment',
+            $itemid);
     $mform->set_data($data);
 }
 
@@ -99,9 +103,9 @@ if ($itemid < 0) {
 
 if ($data = $mform->get_data()) {
     // We have data add/update the task.
-    $data->id =- null;
+    $data->id = null;
     $success = table_data::save_table_data($id, $itemid, $data,
-            $context_course, $options);
+            $context_course, $options, $fileoptions);
     if ($success == -1) {
         redirect($return_index,
                 get_string('taskduplicate', 'tool_richardnz'), 2,

@@ -51,7 +51,8 @@ function tool_richardnz_get_file_info($browser, $areas, $course, $cm, $context, 
  * @return array of [(string)filearea] => (string)description
  */
 function tool_richardnz_get_file_areas($course, $cm, $context) {
-    return ['description' => 'for task description'];
+    return ['description' => 'for task description',
+            'attachment' => 'for a task attachment'];
 }
 
 /**

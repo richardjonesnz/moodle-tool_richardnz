@@ -40,6 +40,7 @@ class table_data {
         $headerdata[] = get_string('courseid', 'tool_richardnz');
         $headerdata[] = get_string('name', 'tool_richardnz');
         $headerdata[] = get_string('description', 'tool_richardnz');
+        $headerdata[] = get_string('attached', 'tool_richardnz');
         $headerdata[] = get_string('priority', 'tool_richardnz');
         $headerdata[] = get_string('completed', 'tool_richardnz');
         $headerdata[] = get_string('timecreated', 'tool_richardnz');
@@ -88,6 +89,10 @@ class table_data {
                     $record->id);
             $data['description'] = format_text($description, FORMAT_HTML,
                     $formatoptions);
+            debugging::logit('record data: ', $record);
+            $data['attachment'] = self::get_attached_file(
+                    $context->id,
+                    $record->id);
             $data['priority'] = $record->priority;
             $data['completed'] =
                     $record->completed == 1 ? 'yes' : 'no';
@@ -129,7 +134,7 @@ class table_data {
      * @return integer - id of inserted record.
      */
     public static function save_table_data($id, $itemid, $data,
-            $context, $options) {
+            $context, $options, $fileoptions) {
         global $DB;
         if ($itemid == 0) {
             // A new task to add.
@@ -151,6 +156,19 @@ class table_data {
                         'tool_richardnz',
                         'description', // file area.
                         $itemid);
+
+                // Any attachments?
+                $data = file_postupdate_standard_filemanager(
+                        $data,
+                        'attachment',
+                        $fileoptions,
+                        $context,
+                        'tool_richardnz',
+                        'attachment',
+                        $itemid);
+
+                debugging::logit('Data to save: ', $data);
+
                 // Update the record with full editor data
                 $DB->update_record('tool_richardnz', $data);
                 return $data->id;
@@ -169,6 +187,15 @@ class table_data {
                         $context,
                         'tool_richardnz',
                         'description',
+                        $itemid);
+            // Update attachment data.
+            $data = file_postupdate_standard_filemanager(
+                        $data,
+                        'attachment',
+                        $fileoptions,
+                        $context,
+                        'tool_richardnz',
+                        'attachment',
                         $itemid);
             $DB->update_record('tool_richardnz', $data);
             return $itemid;
@@ -195,5 +222,25 @@ class table_data {
         global $DB;
         return $DB->get_record('tool_richardnz', ['id' => $id], '*',
                 MUST_EXIST);
+    }
+
+    public static function get_attached_file($contextid, $itemid) {
+        global $CFG;
+        // Note we only allow 1 file to be attached.
+        $fs = get_file_storage();
+        $files = $fs->get_area_files($contextid, 'tool_richardnz', 'attachment',
+                $itemid, "filename", false);
+
+        if ($files) {
+            foreach ($files as $file) {
+                $filename = $file->get_filename();
+                $fileurl = file_encode_url($CFG->wwwroot . '/pluginfile.php',
+                    '/' . $contextid . '/tool_richardnz/attachment/' . $itemid .
+                    '/' . $filename);
+                return \html_writer::link($fileurl, $filename);
+            }
+        } else {
+            return '-';
+        }
     }
 }

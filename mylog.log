@@ -1,0 +1,596 @@
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+context: 47
+item: 1
+files: Array
+(
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+context: 47
+item: 2
+files: Array
+(
+)
+
+record data: stdClass Object
+(
+    [id] => 24
+    [courseid] => 4
+    [name] => Time for coffee
+    [description] => <p>Or possibly covfefe.<img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cup" width="50" height="75" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544470826
+    [timemodified] => 1544472913
+)
+
+context: 47
+item: 24
+files: Array
+(
+)
+
+record data: stdClass Object
+(
+    [id] => 25
+    [courseid] => 4
+    [name] => task with file
+    [description] => <p>Detail attached</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544475820
+    [timemodified] => 1544483679
+)
+
+context: 47
+item: 25
+files: Array
+(
+    [5ffbccec99e174aab75f3b189cab29301d359a94] => stored_file Object
+        (
+            [fs:stored_file:private] => file_storage Object
+                (
+                    [tempdir:file_storage:private] => E:\xampp\moodledata/temp/filestorage
+                    [filesystem:file_storage:private] => file_system_filedir Object
+                        (
+                            [filedir:protected] => E:\xampp\moodledata/filedir
+                            [trashdir:protected] => E:\xampp\moodledata/trashdir
+                            [dirpermissions:protected] => 1535
+                            [filepermissions:protected] => 438
+                        )
+
+                )
+
+            [file_record:stored_file:private] => stdClass Object
+                (
+                    [id] => 243
+                    [contenthash] => f3be2645e2131607d065e8dce25f1dd13546445a
+                    [pathnamehash] => 5ffbccec99e174aab75f3b189cab29301d359a94
+                    [contextid] => 47
+                    [component] => tool_richardnz
+                    [filearea] => attachment
+                    [itemid] => 25
+                    [filepath] => /
+                    [filename] => Managing Moodle 2.5.doc
+                    [userid] => 2
+                    [filesize] => 6559232
+                    [mimetype] => application/msword
+                    [status] => 0
+                    [source] => Managing Moodle 2.5.doc
+                    [author] => Richard Jones
+                    [license] => allrightsreserved
+                    [timecreated] => 1544483296
+                    [timemodified] => 1544483301
+                    [sortorder] => 0
+                    [referencefileid] => 
+                    [repositoryid] => 
+                    [reference] => 
+                    [referencelastsync] => 
+                )
+
+            [repository:stored_file:private] => 
+            [filesystem:stored_file:private] => file_system_filedir Object
+                (
+                    [filedir:protected] => E:\xampp\moodledata/filedir
+                    [trashdir:protected] => E:\xampp\moodledata/trashdir
+                    [dirpermissions:protected] => 1535
+                    [filepermissions:protected] => 438
+                )
+
+        )
+
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+context: 47
+item: 1
+files: Array
+(
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+context: 47
+item: 2
+files: Array
+(
+)
+
+record data: stdClass Object
+(
+    [id] => 24
+    [courseid] => 4
+    [name] => Time for coffee
+    [description] => <p>Or possibly covfefe.<img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cup" width="50" height="75" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544470826
+    [timemodified] => 1544472913
+)
+
+context: 47
+item: 24
+files: Array
+(
+)
+
+record data: stdClass Object
+(
+    [id] => 25
+    [courseid] => 4
+    [name] => task with file
+    [description] => <p>Detail attached</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544475820
+    [timemodified] => 1544483679
+)
+
+context: 47
+item: 25
+files: Array
+(
+    [5ffbccec99e174aab75f3b189cab29301d359a94] => stored_file Object
+        (
+            [fs:stored_file:private] => file_storage Object
+                (
+                    [tempdir:file_storage:private] => E:\xampp\moodledata/temp/filestorage
+                    [filesystem:file_storage:private] => file_system_filedir Object
+                        (
+                            [filedir:protected] => E:\xampp\moodledata/filedir
+                            [trashdir:protected] => E:\xampp\moodledata/trashdir
+                            [dirpermissions:protected] => 1535
+                            [filepermissions:protected] => 438
+                        )
+
+                )
+
+            [file_record:stored_file:private] => stdClass Object
+                (
+                    [id] => 243
+                    [contenthash] => f3be2645e2131607d065e8dce25f1dd13546445a
+                    [pathnamehash] => 5ffbccec99e174aab75f3b189cab29301d359a94
+                    [contextid] => 47
+                    [component] => tool_richardnz
+                    [filearea] => attachment
+                    [itemid] => 25
+                    [filepath] => /
+                    [filename] => Managing Moodle 2.5.doc
+                    [userid] => 2
+                    [filesize] => 6559232
+                    [mimetype] => application/msword
+                    [status] => 0
+                    [source] => Managing Moodle 2.5.doc
+                    [author] => Richard Jones
+                    [license] => allrightsreserved
+                    [timecreated] => 1544483296
+                    [timemodified] => 1544483301
+                    [sortorder] => 0
+                    [referencefileid] => 
+                    [repositoryid] => 
+                    [reference] => 
+                    [referencelastsync] => 
+                )
+
+            [repository:stored_file:private] => 
+            [filesystem:stored_file:private] => file_system_filedir Object
+                (
+                    [filedir:protected] => E:\xampp\moodledata/filedir
+                    [trashdir:protected] => E:\xampp\moodledata/trashdir
+                    [dirpermissions:protected] => 1535
+                    [filepermissions:protected] => 438
+                )
+
+        )
+
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+context: 47
+item: 1
+files: Array
+(
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+context: 47
+item: 2
+files: Array
+(
+)
+
+record data: stdClass Object
+(
+    [id] => 24
+    [courseid] => 4
+    [name] => Time for coffee
+    [description] => <p>Or possibly covfefe.<img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cup" width="50" height="75" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544470826
+    [timemodified] => 1544472913
+)
+
+context: 47
+item: 24
+files: Array
+(
+)
+
+record data: stdClass Object
+(
+    [id] => 25
+    [courseid] => 4
+    [name] => task with file
+    [description] => <p>Detail attached</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544475820
+    [timemodified] => 1544483679
+)
+
+context: 47
+item: 25
+files: Array
+(
+    [5ffbccec99e174aab75f3b189cab29301d359a94] => stored_file Object
+        (
+            [fs:stored_file:private] => file_storage Object
+                (
+                    [tempdir:file_storage:private] => E:\xampp\moodledata/temp/filestorage
+                    [filesystem:file_storage:private] => file_system_filedir Object
+                        (
+                            [filedir:protected] => E:\xampp\moodledata/filedir
+                            [trashdir:protected] => E:\xampp\moodledata/trashdir
+                            [dirpermissions:protected] => 1535
+                            [filepermissions:protected] => 438
+                        )
+
+                )
+
+            [file_record:stored_file:private] => stdClass Object
+                (
+                    [id] => 243
+                    [contenthash] => f3be2645e2131607d065e8dce25f1dd13546445a
+                    [pathnamehash] => 5ffbccec99e174aab75f3b189cab29301d359a94
+                    [contextid] => 47
+                    [component] => tool_richardnz
+                    [filearea] => attachment
+                    [itemid] => 25
+                    [filepath] => /
+                    [filename] => Managing Moodle 2.5.doc
+                    [userid] => 2
+                    [filesize] => 6559232
+                    [mimetype] => application/msword
+                    [status] => 0
+                    [source] => Managing Moodle 2.5.doc
+                    [author] => Richard Jones
+                    [license] => allrightsreserved
+                    [timecreated] => 1544483296
+                    [timemodified] => 1544483301
+                    [sortorder] => 0
+                    [referencefileid] => 
+                    [repositoryid] => 
+                    [reference] => 
+                    [referencelastsync] => 
+                )
+
+            [repository:stored_file:private] => 
+            [filesystem:stored_file:private] => file_system_filedir Object
+                (
+                    [filedir:protected] => E:\xampp\moodledata/filedir
+                    [trashdir:protected] => E:\xampp\moodledata/trashdir
+                    [dirpermissions:protected] => 1535
+                    [filepermissions:protected] => 438
+                )
+
+        )
+
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+context: 47
+item: 1
+files: Array
+(
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+context: 47
+item: 2
+files: Array
+(
+)
+
+record data: stdClass Object
+(
+    [id] => 24
+    [courseid] => 4
+    [name] => Time for coffee
+    [description] => <p>Or possibly covfefe.<img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cup" width="50" height="75" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544470826
+    [timemodified] => 1544472913
+)
+
+context: 47
+item: 24
+files: Array
+(
+)
+
+record data: stdClass Object
+(
+    [id] => 25
+    [courseid] => 4
+    [name] => task with file
+    [description] => <p>Detail attached</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544475820
+    [timemodified] => 1544483679
+)
+
+context: 47
+item: 25
+files: Array
+(
+    [5ffbccec99e174aab75f3b189cab29301d359a94] => stored_file Object
+        (
+            [fs:stored_file:private] => file_storage Object
+                (
+                    [tempdir:file_storage:private] => E:\xampp\moodledata/temp/filestorage
+                    [filesystem:file_storage:private] => file_system_filedir Object
+                        (
+                            [filedir:protected] => E:\xampp\moodledata/filedir
+                            [trashdir:protected] => E:\xampp\moodledata/trashdir
+                            [dirpermissions:protected] => 1535
+                            [filepermissions:protected] => 438
+                        )
+
+                )
+
+            [file_record:stored_file:private] => stdClass Object
+                (
+                    [id] => 243
+                    [contenthash] => f3be2645e2131607d065e8dce25f1dd13546445a
+                    [pathnamehash] => 5ffbccec99e174aab75f3b189cab29301d359a94
+                    [contextid] => 47
+                    [component] => tool_richardnz
+                    [filearea] => attachment
+                    [itemid] => 25
+                    [filepath] => /
+                    [filename] => Managing Moodle 2.5.doc
+                    [userid] => 2
+                    [filesize] => 6559232
+                    [mimetype] => application/msword
+                    [status] => 0
+                    [source] => Managing Moodle 2.5.doc
+                    [author] => Richard Jones
+                    [license] => allrightsreserved
+                    [timecreated] => 1544483296
+                    [timemodified] => 1544483301
+                    [sortorder] => 0
+                    [referencefileid] => 
+                    [repositoryid] => 
+                    [reference] => 
+                    [referencelastsync] => 
+                )
+
+            [repository:stored_file:private] => 
+            [filesystem:stored_file:private] => file_system_filedir Object
+                (
+                    [filedir:protected] => E:\xampp\moodledata/filedir
+                    [trashdir:protected] => E:\xampp\moodledata/trashdir
+                    [dirpermissions:protected] => 1535
+                    [filepermissions:protected] => 438
+                )
+
+        )
+
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+record data: stdClass Object
+(
+    [id] => 24
+    [courseid] => 4
+    [name] => Time for coffee
+    [description] => <p>Or possibly covfefe.<img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cup" width="50" height="75" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544470826
+    [timemodified] => 1544472913
+)
+
+record data: stdClass Object
+(
+    [id] => 25
+    [courseid] => 4
+    [name] => task with file
+    [description] => <p>Detail attached</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544475820
+    [timemodified] => 1544483679
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => 
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1543871459
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+record data: stdClass Object
+(
+    [id] => 24
+    [courseid] => 4
+    [name] => Time for coffee
+    [description] => <p>Or possibly covfefe.<img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cup" width="50" height="75" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544470826
+    [timemodified] => 1544472913
+)
+
+record data: stdClass Object
+(
+    [id] => 25
+    [courseid] => 4
+    [name] => task with file
+    [description] => <p>Detail attached</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544475820
+    [timemodified] => 1544483679
+)
+

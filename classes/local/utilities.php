@@ -40,4 +40,17 @@ class utilities {
                 'context' => $context,
                 'trusttext' => true];
     }
+    /**
+     * Returns options for file manager field.
+     *
+     * @param stdClass $context
+     * @return array of file options
+     */
+    public static function get_file_options() {
+        global $CFG;
+        return ['subdirs' => 0,
+                'maxbytes' => $CFG->maxbytes,
+                'maxfiles' => 1,
+                'accepted_types' => ['audio', 'video', 'document']];
+    }
 }

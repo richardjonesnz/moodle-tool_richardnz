@@ -55,6 +55,12 @@ class task_form extends \moodleform {
         $mform->addRule('description_editor', get_string('required'),
                 'required', null, 'client');
 
+        // Add a file manager - but only allow 1 file.
+        $fileoptions = utilities::get_file_options();
+        $mform->addElement('filemanager', 'attachment_filemanager',
+                get_string('attachment', 'tool_richardnz'), null,
+                $fileoptions);
+
         $mform->addElement('advcheckbox', 'completed',
                 get_string('completed', 'tool_richardnz'));
         $mform->setDefault('completed', 0);
