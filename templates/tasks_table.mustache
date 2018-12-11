@@ -28,10 +28,11 @@
 
     Example context (json):
         {
-         "class": "tool_richardnz_table",
-         "caption": "this is table is for...",
-         "tableheaders": ["colname", "colname"],
-         "tabledata": ["tabledata", "tabledata"]
+         "class":"tool_richardnz_table",
+         "caption":"this is table is for...",
+         "tableheaders":["header1":"name1", "header2":"name2"],
+         "tabledata":["tabledata":"item", "tabledata":"another item"],
+         "addlink":["url":"#", "text":"add a new task"]
         }
 }}
 <div class="{{class}}">
@@ -49,5 +50,8 @@
         {{/tabledata}}
       </tbody>
     </table>
+    {{#addlink}}
+        <a class="btn btn-primary" href="{{{url}}}">{{text}}</a>
+    {{/addlink}}
   </div>
 </div>

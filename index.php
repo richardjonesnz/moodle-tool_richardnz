@@ -44,11 +44,13 @@ $PAGE->set_pagelayout('report');
 $PAGE->set_title($title);
 $PAGE->set_heading(get_string('index_header', 'tool_richardnz'));
 
+$renderer = $PAGE->get_renderer('tool_richardnz');
+
 require_login();
 
 // Start output to browser.
-echo $OUTPUT->header();
-echo $OUTPUT->heading($title, 2);
+echo $renderer->header();
+echo $renderer->heading($title, 2);
 echo get_string('greeting', 'tool_richardnz');
 // Verify user has capability to view.
 if (has_capability('tool/richardnz:view', $context_course)) {
@@ -57,16 +59,9 @@ if (has_capability('tool/richardnz:view', $context_course)) {
     $candelete = has_capability('tool/richardnz:edit', $context_course);
     $data = table_data::get_table_data($id, $canedit, $candelete,
             $context_course);
-    echo $OUTPUT->render_from_template('tool_richardnz/tasks_table', $data);
-
-    // Add the link to add if the user has permission.
-    if (has_capability('tool/richardnz:edit', $context_course)) {
-        $link = new moodle_url('/admin/tool/richardnz/edit.php',
-                ['id' => $id]);
-        echo html_writer::link($link, get_string('add_link', 'tool_richardnz'));
-    }
+    echo $renderer->print_table($data);
 } else {
     echo '<p>' . get_string('nopermission', 'tool_richardnz') . '</p>';
 }
 // End the page properly: IMPORTANT!
-echo $OUTPUT->footer();
+echo $renderer->footer();

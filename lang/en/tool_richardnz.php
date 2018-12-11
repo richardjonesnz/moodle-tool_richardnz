@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 
 // General module strings
 $string['pluginname'] = 'Richard NZ tool';
-$string['greeting'] = 'Hello World!';
+$string['greeting'] = 'A task tracker for course maintainers.';
 $string['param'] = '<p>The parameter is <b>{$a}</b></p>';
 $string['index_header'] = 'Main page';
 $string['add_link'] = 'Add new task';

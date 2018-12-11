@@ -69,6 +69,12 @@ class table_data {
         $table = new \stdClass();
         $table->class = 'tool_richardnz_table';
         $table->caption = get_string('tasks', 'tool_richardnz');
+        // Check for adding the add task link.
+        if ($canedit) {
+            $table->addlink = ['url' => new \moodle_url(
+                    '/admin/tool/richardnz/edit.php', ['id' => $courseid]),
+            'text' => get_string('add_link', 'tool_richardnz')];
+        }
         $table->tableheaders = self::get_table_headers();
         $table->tabledata = array();
 
