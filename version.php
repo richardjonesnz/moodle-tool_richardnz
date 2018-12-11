@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'tool_richardnz';
-$plugin->version = 2018121105;
-$plugin->release = 'v2.0'; // File picker.
+$plugin->version = 2018121106;
+$plugin->release = 'v2.2'; // Templates (note: no version 2.1).
 $plugin->requires = 2017111301;
 $plugin->maturity = MATURITY_BETA;
