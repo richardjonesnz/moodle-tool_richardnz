@@ -3,8 +3,9 @@ define(['jquery', 'core/log'], function($, log) {
     log.debug('alert js module loaded');
     return {
         init: function() {
-            $('a.tool_richardnz_deletelink').click(function() {
-                log.debug('deleting now');
+            log.debug('alert js init');
+            $('a.tool_richardnz_deletelink').click( function() {
+                alert('alert js deleting now');
             });
         }
     };
