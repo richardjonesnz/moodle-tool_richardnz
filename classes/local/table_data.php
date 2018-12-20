@@ -37,7 +37,6 @@ class table_data {
     public static function get_table_headers() {
         $headerdata = array();
         $headerdata[] = get_string('id', 'tool_richardnz');
-        $headerdata[] = get_string('courseid', 'tool_richardnz');
         $headerdata[] = get_string('name', 'tool_richardnz');
         $headerdata[] = get_string('description', 'tool_richardnz');
         $headerdata[] = get_string('attached', 'tool_richardnz');
@@ -75,6 +74,10 @@ class table_data {
                     '/admin/tool/richardnz/edit.php', ['id' => $courseid]),
             'text' => get_string('add_link', 'tool_richardnz')];
         }
+        $table->courselink = ['url' => new \moodle_url(
+                '/course/view.php',
+                ['id' => $courseid]),
+                'text' => get_string('course_link', 'tool_richardnz')];
         $table->tableheaders = self::get_table_headers();
         $table->tabledata = array();
 
@@ -86,7 +89,6 @@ class table_data {
         foreach($records as $record) {
             $data = array();
             $data['id'] = $record->id;
-            $data['courseid'] = $record->courseid;
             // Contains user input, clean with format_string.
             $data['name'] = format_string($record->name);
             $description = file_rewrite_pluginfile_urls(

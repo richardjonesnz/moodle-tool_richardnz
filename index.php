@@ -25,6 +25,7 @@
 use \tool_richardnz\local\table_data;
 use \tool_richardnz\local\debugging;
 use \core\output\notification;
+use \tool_richardnz\event\tasklist_viewed;
 
 require_once(__DIR__ . '/../../../config.php');
 require_once($CFG->libdir.'/adminlib.php');
@@ -60,6 +61,15 @@ if (has_capability('tool/richardnz:view', $context_course)) {
     $data = table_data::get_table_data($id, $canedit, $candelete,
             $context_course);
     echo $renderer->print_table($data);
+
+    // Log the module viewed event.
+    $event = tasklist_viewed::create(array(
+        'objectid' => $id,
+        'context' => $context_course,
+    ));
+    $course = $DB->get_record('course', ['id' => $id], '*', MUST_EXIST);
+    $event->add_record_snapshot('course', $course);
+    $event->trigger();
 } else {
     echo '<p>' . get_string('nopermission', 'tool_richardnz') . '</p>';
 }

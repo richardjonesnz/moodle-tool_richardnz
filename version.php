@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'tool_richardnz';
-$plugin->version = 2018122005;
+$plugin->version = 2018122006;
 $plugin->release = 'v2.4'; // Observers and events.
 $plugin->requires = 2017111301;
 $plugin->maturity = MATURITY_BETA;
