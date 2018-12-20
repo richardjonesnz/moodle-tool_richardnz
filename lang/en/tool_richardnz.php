@@ -36,9 +36,6 @@ $string['course_link'] = 'Back to course';
 $string['editlink'] = 'edit';
 $string['deletelink'] = 'delete';
 $string['action'] = 'Actions';
-$string['taskadded'] = 'Task added';
-$string['taskupdated'] = 'Task updated';
-$string['taskdeleted'] = 'Task deleted';
 $string['attachment'] = 'Attach a file';
 
 // Strings for data table.
@@ -70,3 +67,6 @@ $string['delete_title'] = 'Delete a task';
 
 // Events.
 $string['listviewed'] = 'Task list viewed';
+$string['taskadded'] = 'Task added';
+$string['taskupdated'] = 'Task updated';
+$string['taskdeleted'] = 'Task deleted';

@@ -26,6 +26,9 @@ use \tool_richardnz\local\debugging;
 use \tool_richardnz\local\task_form;
 use \tool_richardnz\local\table_data;
 use \tool_richardnz\local\utilities;
+use \tool_richardnz\event\task_added;
+use \tool_richardnz\event\task_edited;
+use \tool_richardnz\event\task_deleted;
 use \core\output\notification;
 
 require_once(__DIR__ . '/../../../config.php');
@@ -64,6 +67,8 @@ $PAGE->set_heading(get_string('edit_header', 'tool_richardnz'));
 
 $options = utilities::get_editor_options($context_course);
 $fileoptions = utilities::get_file_options();
+$course = $DB->get_record('course', ['id' => $id], '*', MUST_EXIST);
+
 
 $return_index = new moodle_url('/admin/tool/richardnz/index.php',
         ['id' => $id]);
@@ -94,13 +99,21 @@ if ($itemid < 0) {
     if (has_capability('tool/richardnz:delete', $context_course)) {
         require_sesskey();
         $DB->delete_records('tool_richardnz', ['id' => abs($itemid)]);
+        // Log the deleted event.
+            $event = task_deleted::create(array(
+                    'objectid' => $id,
+                    'context' => $context_course,
+            ));
+            $event->add_record_snapshot('course', $course);
+            $event->trigger();
+
         redirect($return_index, get_string('taskdeleted', 'tool_richardnz'), 2,
                     notification::NOTIFY_SUCCESS);
     } else {
         echo get_string('nopermission', 'tool_richardnz');
     }
 }
-
+$success = 0;
 if ($data = $mform->get_data()) {
     // We have data add/update the task.
     $data->id = null;
@@ -112,10 +125,25 @@ if ($data = $mform->get_data()) {
                 notification::NOTIFY_ERROR);
     } else {
         if ($itemid == 0) {
+            // Log the task added event.
+            $event = task_added::create(array(
+                    'objectid' => $id,
+                    'context' => $context_course,
+            ));
+            $event->add_record_snapshot('course', $course);
+            $event->trigger();
             redirect($return_index,
                     get_string('taskadded', 'tool_richardnz'), 2,
                     notification::NOTIFY_SUCCESS);
         } else {
+            // Log the task edited event.
+            $event = task_edited::create(array(
+                    'objectid' => $id,
+                    'context' => $context_course,
+            ));
+            $event->add_record_snapshot('course', $course);
+            $event->trigger();
+
             redirect($return_index,
                     get_string('taskupdated', 'tool_richardnz'),
                     2, notification::NOTIFY_SUCCESS);

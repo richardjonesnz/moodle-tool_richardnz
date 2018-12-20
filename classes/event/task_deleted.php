@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Defines the task list viewed event.
+ * Defines the task deleted event.
  *
  * @package    tool_richardnz
  * @copyright  2018 Richard Jones <richardnz@outlook.com>
@@ -24,23 +24,24 @@
  */
 
 namespace tool_richardnz\event;
+
 defined('MOODLE_INTERNAL') || die();
 
 /**
- * A tasklist viewed event for tool richardnz.
+ * A task deleted event for tool richardnz.
  *
  * @package    tool_richardnz
  * @copyright  2018 Richard Jones
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later.
  */
-class tasklist_viewed extends \core\event\base {
+class task_deleted extends \core\event\base {
 
     /**
      * Set basic properties for the event.
      */
     protected function init() {
         $this->data['objecttable'] = 'tool_richardnz';
-        $this->data['crud'] = 'r';
+        $this->data['crud'] = 'd';
         $this->data['edulevel'] = self::LEVEL_PARTICIPATING;
     }
 
@@ -50,7 +51,7 @@ class tasklist_viewed extends \core\event\base {
      * @return string
      */
     public static function get_name() {
-        return get_string('listviewed', 'tool_richardnz');
+        return get_string('taskdeleted', 'tool_richardnz');
     }
     /**
      * Returns non-localised event description with id's for admin use only.
@@ -58,7 +59,6 @@ class tasklist_viewed extends \core\event\base {
      * @return string
      */
     public function get_description() {
-        return "The user with id '$this->userid' has
-                viewed the task list in the course with the id '$this->objectid'.";
+        return "The user with id '$this->userid' has deleted a task to the course with the id '$this->objectid'.";
     }
 }
