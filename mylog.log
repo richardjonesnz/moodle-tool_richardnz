@@ -1410,3 +1410,4659 @@ record data: stdClass Object
     [timemodified] => 1544483679
 )
 
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+record data: stdClass Object
+(
+    [id] => 24
+    [courseid] => 4
+    [name] => Time for coffee
+    [description] => <p>Or possibly covfefe.<img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cup" width="50" height="75" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544470826
+    [timemodified] => 1544472913
+)
+
+record data: stdClass Object
+(
+    [id] => 25
+    [courseid] => 4
+    [name] => task with file
+    [description] => <p>Detail attached</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544475820
+    [timemodified] => 1544483679
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+record data: stdClass Object
+(
+    [id] => 24
+    [courseid] => 4
+    [name] => Time for coffee
+    [description] => <p>Or possibly covfefe.<img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cup" width="50" height="75" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544470826
+    [timemodified] => 1544472913
+)
+
+record data: stdClass Object
+(
+    [id] => 25
+    [courseid] => 4
+    [name] => task with file
+    [description] => <p>Detail attached</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544475820
+    [timemodified] => 1544483679
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+record data: stdClass Object
+(
+    [id] => 24
+    [courseid] => 4
+    [name] => Time for coffee
+    [description] => <p>Or possibly covfefe.<img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cup" width="50" height="75" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544470826
+    [timemodified] => 1544472913
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+record data: stdClass Object
+(
+    [id] => 24
+    [courseid] => 4
+    [name] => Time for coffee
+    [description] => <p>Or possibly covfefe.<img src="@@PLUGINFILE@@/forum_coffee_resized_transparent.png" alt="cup" width="50" height="75" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544470826
+    [timemodified] => 1544472913
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Data to save: stdClass Object
+(
+    [name] => werwrw
+    [description_editor] => Array
+        (
+            [text] => werwre
+            [format] => 1
+            [itemid] => 685770815
+        )
+
+    [attachment_filemanager] => 790980085
+    [completed] => 1
+    [id] => 26
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1544653582
+    [timemodified] => 1544653582
+    [description] => werwre
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+record data: stdClass Object
+(
+    [id] => 26
+    [courseid] => 4
+    [name] => werwrw
+    [description] => werwre
+    [completed] => 1
+    [priority] => 1
+    [timecreated] => 1544653582
+    [timemodified] => 1544653582
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Data to save: stdClass Object
+(
+    [name] => 123123
+    [description_editor] => Array
+        (
+            [text] => <p>123123</p>
+            [format] => 1
+            [itemid] => 227797600
+        )
+
+    [attachment_filemanager] => 891857833
+    [completed] => 0
+    [id] => 27
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1544654427
+    [timemodified] => 1544654427
+    [description] => <p>123123</p>
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+record data: stdClass Object
+(
+    [id] => 27
+    [courseid] => 4
+    [name] => 123123
+    [description] => <p>123123</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544654427
+    [timemodified] => 1544654427
+)
+
+Data to save: stdClass Object
+(
+    [name] => 13132132
+    [description_editor] => Array
+        (
+            [text] => <p>123132123</p>
+            [format] => 1
+            [itemid] => 378623462
+        )
+
+    [attachment_filemanager] => 234562395
+    [completed] => 0
+    [id] => 28
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1544654438
+    [timemodified] => 1544654438
+    [description] => <p>123132123</p>
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+record data: stdClass Object
+(
+    [id] => 27
+    [courseid] => 4
+    [name] => 123123
+    [description] => <p>123123</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544654427
+    [timemodified] => 1544654427
+)
+
+record data: stdClass Object
+(
+    [id] => 28
+    [courseid] => 4
+    [name] => 13132132
+    [description] => <p>123132123</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544654438
+    [timemodified] => 1544654438
+)
+
+Data to save: stdClass Object
+(
+    [name] => 34
+    [description_editor] => Array
+        (
+            [text] => <p>345345b&nbsp; 34534</p>
+            [format] => 1
+            [itemid] => 86841156
+        )
+
+    [attachment_filemanager] => 102782661
+    [completed] => 0
+    [id] => 29
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1544654452
+    [timemodified] => 1544654452
+    [description] => <p>345345b&nbsp; 34534</p>
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+record data: stdClass Object
+(
+    [id] => 27
+    [courseid] => 4
+    [name] => 123123
+    [description] => <p>123123</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544654427
+    [timemodified] => 1544654427
+)
+
+record data: stdClass Object
+(
+    [id] => 28
+    [courseid] => 4
+    [name] => 13132132
+    [description] => <p>123132123</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544654438
+    [timemodified] => 1544654438
+)
+
+record data: stdClass Object
+(
+    [id] => 29
+    [courseid] => 4
+    [name] => 34
+    [description] => <p>345345b&nbsp; 34534</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544654452
+    [timemodified] => 1544654452
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+record data: stdClass Object
+(
+    [id] => 27
+    [courseid] => 4
+    [name] => 123123
+    [description] => <p>123123</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544654427
+    [timemodified] => 1544654427
+)
+
+record data: stdClass Object
+(
+    [id] => 28
+    [courseid] => 4
+    [name] => 13132132
+    [description] => <p>123132123</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544654438
+    [timemodified] => 1544654438
+)
+
+record data: stdClass Object
+(
+    [id] => 29
+    [courseid] => 4
+    [name] => 34
+    [description] => <p>345345b&nbsp; 34534</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544654452
+    [timemodified] => 1544654452
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+record data: stdClass Object
+(
+    [id] => 27
+    [courseid] => 4
+    [name] => 123123
+    [description] => <p>123123</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544654427
+    [timemodified] => 1544654427
+)
+
+record data: stdClass Object
+(
+    [id] => 28
+    [courseid] => 4
+    [name] => 13132132
+    [description] => <p>123132123</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544654438
+    [timemodified] => 1544654438
+)
+
+record data: stdClass Object
+(
+    [id] => 29
+    [courseid] => 4
+    [name] => 34
+    [description] => <p>345345b&nbsp; 34534</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544654452
+    [timemodified] => 1544654452
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+record data: stdClass Object
+(
+    [id] => 27
+    [courseid] => 4
+    [name] => 123123
+    [description] => <p>123123</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544654427
+    [timemodified] => 1544654427
+)
+
+record data: stdClass Object
+(
+    [id] => 28
+    [courseid] => 4
+    [name] => 13132132
+    [description] => <p>123132123</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544654438
+    [timemodified] => 1544654438
+)
+
+record data: stdClass Object
+(
+    [id] => 29
+    [courseid] => 4
+    [name] => 34
+    [description] => <p>345345b&nbsp; 34534</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544654452
+    [timemodified] => 1544654452
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+record data: stdClass Object
+(
+    [id] => 27
+    [courseid] => 4
+    [name] => 123123
+    [description] => <p>123123</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544654427
+    [timemodified] => 1544654427
+)
+
+record data: stdClass Object
+(
+    [id] => 28
+    [courseid] => 4
+    [name] => 13132132
+    [description] => <p>123132123</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544654438
+    [timemodified] => 1544654438
+)
+
+record data: stdClass Object
+(
+    [id] => 29
+    [courseid] => 4
+    [name] => 34
+    [description] => <p>345345b&nbsp; 34534</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544654452
+    [timemodified] => 1544654452
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+record data: stdClass Object
+(
+    [id] => 27
+    [courseid] => 4
+    [name] => 123123
+    [description] => <p>123123</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544654427
+    [timemodified] => 1544654427
+)
+
+record data: stdClass Object
+(
+    [id] => 28
+    [courseid] => 4
+    [name] => 13132132
+    [description] => <p>123132123</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544654438
+    [timemodified] => 1544654438
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+record data: stdClass Object
+(
+    [id] => 27
+    [courseid] => 4
+    [name] => 123123
+    [description] => <p>123123</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544654427
+    [timemodified] => 1544654427
+)
+
+record data: stdClass Object
+(
+    [id] => 28
+    [courseid] => 4
+    [name] => 13132132
+    [description] => <p>123132123</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544654438
+    [timemodified] => 1544654438
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+record data: stdClass Object
+(
+    [id] => 27
+    [courseid] => 4
+    [name] => 123123
+    [description] => <p>123123</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544654427
+    [timemodified] => 1544654427
+)
+
+record data: stdClass Object
+(
+    [id] => 28
+    [courseid] => 4
+    [name] => 13132132
+    [description] => <p>123132123</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544654438
+    [timemodified] => 1544654438
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+record data: stdClass Object
+(
+    [id] => 27
+    [courseid] => 4
+    [name] => 123123
+    [description] => <p>123123</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544654427
+    [timemodified] => 1544654427
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+record data: stdClass Object
+(
+    [id] => 27
+    [courseid] => 4
+    [name] => 123123
+    [description] => <p>123123</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544654427
+    [timemodified] => 1544654427
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+record data: stdClass Object
+(
+    [id] => 27
+    [courseid] => 4
+    [name] => 123123
+    [description] => <p>123123</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544654427
+    [timemodified] => 1544654427
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Data to save: stdClass Object
+(
+    [name] => qweqwe
+    [description_editor] => Array
+        (
+            [text] => <p>qweqweqe</p>
+            [format] => 1
+            [itemid] => 212844918
+        )
+
+    [attachment_filemanager] => 643705644
+    [completed] => 0
+    [id] => 30
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1544657546
+    [timemodified] => 1544657546
+    [description] => <p>qweqweqe</p>
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+record data: stdClass Object
+(
+    [id] => 30
+    [courseid] => 4
+    [name] => qweqwe
+    [description] => <p>qweqweqe</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544657546
+    [timemodified] => 1544657546
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Data to save: stdClass Object
+(
+    [name] => 2r2r3r2
+    [description_editor] => Array
+        (
+            [text] => 2r2r3
+            [format] => 1
+            [itemid] => 842233964
+        )
+
+    [attachment_filemanager] => 451480674
+    [completed] => 0
+    [id] => 3
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1544742158
+    [timemodified] => 1544742158
+    [description] => 2r2r3
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+record data: stdClass Object
+(
+    [id] => 3
+    [courseid] => 4
+    [name] => 2r2r3r2
+    [description] => 2r2r3
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544742158
+    [timemodified] => 1544742158
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+Data to save: stdClass Object
+(
+    [name] => 132123
+    [description_editor] => Array
+        (
+            [text] => 123123
+            [format] => 1
+            [itemid] => 970870514
+        )
+
+    [attachment_filemanager] => 320590402
+    [completed] => 0
+    [id] => 4
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1544742435
+    [timemodified] => 1544742435
+    [description] => 123123
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+record data: stdClass Object
+(
+    [id] => 4
+    [courseid] => 4
+    [name] => 132123
+    [description] => 123123
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544742435
+    [timemodified] => 1544742435
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => A task with description
+    [description] => added by hand - edited
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543869621
+    [timemodified] => 1543878199
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+Data to save: stdClass Object
+(
+    [name] => werwer
+    [description_editor] => Array
+        (
+            [text] => we
+            [format] => 1
+            [itemid] => 637102554
+        )
+
+    [attachment_filemanager] => 838305765
+    [completed] => 1
+    [id] => 5
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1544742995
+    [timemodified] => 1544742995
+    [description] => we
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 5
+    [courseid] => 4
+    [name] => werwer
+    [description] => we
+    [completed] => 1
+    [priority] => 1
+    [timecreated] => 1544742995
+    [timemodified] => 1544742995
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+Data to save: stdClass Object
+(
+    [name] => qeqwe
+    [description_editor] => Array
+        (
+            [text] => <p>qwewqqweqwee</p>
+            [format] => 1
+            [itemid] => 15725832
+        )
+
+    [attachment_filemanager] => 202764773
+    [completed] => 0
+    [id] => 6
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1544744420
+    [timemodified] => 1544744420
+    [description] => <p>qwewqqweqwee</p>
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 6
+    [courseid] => 4
+    [name] => qeqwe
+    [description] => <p>qwewqqweqwee</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544744420
+    [timemodified] => 1544744420
+)
+
+Data to save: stdClass Object
+(
+    [name] => qweqwe
+    [description_editor] => Array
+        (
+            [text] => <p>qweqweqwe</p>
+            [format] => 1
+            [itemid] => 272314317
+        )
+
+    [attachment_filemanager] => 646086347
+    [completed] => 0
+    [id] => 7
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1544744431
+    [timemodified] => 1544744431
+    [description] => <p>qweqweqwe</p>
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 6
+    [courseid] => 4
+    [name] => qeqwe
+    [description] => <p>qwewqqweqwee</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544744420
+    [timemodified] => 1544744420
+)
+
+record data: stdClass Object
+(
+    [id] => 7
+    [courseid] => 4
+    [name] => qweqwe
+    [description] => <p>qweqweqwe</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544744431
+    [timemodified] => 1544744431
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 6
+    [courseid] => 4
+    [name] => qeqwe
+    [description] => <p>qwewqqweqwee</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544744420
+    [timemodified] => 1544744420
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 6
+    [courseid] => 4
+    [name] => qeqwe
+    [description] => <p>qwewqqweqwee</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1544744420
+    [timemodified] => 1544744420
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+Data to save: stdClass Object
+(
+    [name] => SDFSDFSDF
+    [description_editor] => Array
+        (
+            [text] => SDFSDFSD
+            [format] => 1
+            [itemid] => 994239484
+        )
+
+    [attachment_filemanager] => 118388715
+    [completed] => 0
+    [id] => 2
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1545013614
+    [timemodified] => 1545013614
+    [description] => SDFSDFSD
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => SDFSDFSDF
+    [description] => SDFSDFSD
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545013614
+    [timemodified] => 1545013614
+)
+
+Data to save: stdClass Object
+(
+    [name] => rryrry
+    [description_editor] => Array
+        (
+            [text] => <p>rytrmryr tryr ry ry ry ry</p>
+            [format] => 1
+            [itemid] => 235591069
+        )
+
+    [attachment_filemanager] => 118125445
+    [completed] => 0
+    [id] => 3
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1545013632
+    [timemodified] => 1545013632
+    [description] => <p>rytrmryr tryr ry ry ry ry</p>
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => SDFSDFSDF
+    [description] => SDFSDFSD
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545013614
+    [timemodified] => 1545013614
+)
+
+record data: stdClass Object
+(
+    [id] => 3
+    [courseid] => 4
+    [name] => rryrry
+    [description] => <p>rytrmryr tryr ry ry ry ry</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545013632
+    [timemodified] => 1545013632
+)
+
+Data to save: stdClass Object
+(
+    [name] => sdfsdfsd
+    [description_editor] => Array
+        (
+            [text] => <p>sdfsfsdf geerty retyretye e</p>
+            [format] => 1
+            [itemid] => 896000284
+        )
+
+    [attachment_filemanager] => 183467981
+    [completed] => 0
+    [id] => 4
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1545013647
+    [timemodified] => 1545013647
+    [description] => <p>sdfsfsdf geerty retyretye e</p>
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => SDFSDFSDF
+    [description] => SDFSDFSD
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545013614
+    [timemodified] => 1545013614
+)
+
+record data: stdClass Object
+(
+    [id] => 3
+    [courseid] => 4
+    [name] => rryrry
+    [description] => <p>rytrmryr tryr ry ry ry ry</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545013632
+    [timemodified] => 1545013632
+)
+
+record data: stdClass Object
+(
+    [id] => 4
+    [courseid] => 4
+    [name] => sdfsdfsd
+    [description] => <p>sdfsfsdf geerty retyretye e</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545013647
+    [timemodified] => 1545013647
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => SDFSDFSDF
+    [description] => SDFSDFSD
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545013614
+    [timemodified] => 1545013614
+)
+
+record data: stdClass Object
+(
+    [id] => 3
+    [courseid] => 4
+    [name] => rryrry
+    [description] => <p>rytrmryr tryr ry ry ry ry</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545013632
+    [timemodified] => 1545013632
+)
+
+record data: stdClass Object
+(
+    [id] => 4
+    [courseid] => 4
+    [name] => sdfsdfsd
+    [description] => <p>sdfsfsdf geerty retyretye e</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545013647
+    [timemodified] => 1545013647
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => SDFSDFSDF
+    [description] => SDFSDFSD
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545013614
+    [timemodified] => 1545013614
+)
+
+record data: stdClass Object
+(
+    [id] => 3
+    [courseid] => 4
+    [name] => rryrry
+    [description] => <p>rytrmryr tryr ry ry ry ry</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545013632
+    [timemodified] => 1545013632
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => SDFSDFSDF
+    [description] => SDFSDFSD
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545013614
+    [timemodified] => 1545013614
+)
+
+record data: stdClass Object
+(
+    [id] => 3
+    [courseid] => 4
+    [name] => rryrry
+    [description] => <p>rytrmryr tryr ry ry ry ry</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545013632
+    [timemodified] => 1545013632
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => SDFSDFSDF
+    [description] => SDFSDFSD
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545013614
+    [timemodified] => 1545013614
+)
+
+record data: stdClass Object
+(
+    [id] => 3
+    [courseid] => 4
+    [name] => rryrry
+    [description] => <p>rytrmryr tryr ry ry ry ry</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545013632
+    [timemodified] => 1545013632
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => SDFSDFSDF
+    [description] => SDFSDFSD
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545013614
+    [timemodified] => 1545013614
+)
+
+record data: stdClass Object
+(
+    [id] => 3
+    [courseid] => 4
+    [name] => rryrry
+    [description] => <p>rytrmryr tryr ry ry ry ry</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545013632
+    [timemodified] => 1545013632
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => SDFSDFSDF
+    [description] => SDFSDFSD
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545013614
+    [timemodified] => 1545013614
+)
+
+record data: stdClass Object
+(
+    [id] => 3
+    [courseid] => 4
+    [name] => rryrry
+    [description] => <p>rytrmryr tryr ry ry ry ry</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545013632
+    [timemodified] => 1545013632
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => SDFSDFSDF
+    [description] => SDFSDFSD
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545013614
+    [timemodified] => 1545013614
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => SDFSDFSDF
+    [description] => SDFSDFSD
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545013614
+    [timemodified] => 1545013614
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => SDFSDFSDF
+    [description] => SDFSDFSD
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545013614
+    [timemodified] => 1545013614
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => SDFSDFSDF
+    [description] => SDFSDFSD
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545013614
+    [timemodified] => 1545013614
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => SDFSDFSDF
+    [description] => SDFSDFSD
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545013614
+    [timemodified] => 1545013614
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => SDFSDFSDF
+    [description] => SDFSDFSD
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545013614
+    [timemodified] => 1545013614
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => SDFSDFSDF
+    [description] => SDFSDFSD
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545013614
+    [timemodified] => 1545013614
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => SDFSDFSDF
+    [description] => SDFSDFSD
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545013614
+    [timemodified] => 1545013614
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => SDFSDFSDF
+    [description] => SDFSDFSD
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545013614
+    [timemodified] => 1545013614
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => SDFSDFSDF
+    [description] => SDFSDFSD
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545013614
+    [timemodified] => 1545013614
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => SDFSDFSDF
+    [description] => SDFSDFSD
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545013614
+    [timemodified] => 1545013614
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 2
+    [courseid] => 4
+    [name] => SDFSDFSDF
+    [description] => SDFSDFSD
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545013614
+    [timemodified] => 1545013614
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+Data to save: stdClass Object
+(
+    [name] => werwerwerw
+    [description_editor] => Array
+        (
+            [text] => <p>werwerwre</p>
+            [format] => 1
+            [itemid] => 885318561
+        )
+
+    [attachment_filemanager] => 96415179
+    [completed] => 0
+    [id] => 5
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1545017413
+    [timemodified] => 1545017413
+    [description] => <p>werwerwre</p>
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 5
+    [courseid] => 4
+    [name] => werwerwerw
+    [description] => <p>werwerwre</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545017413
+    [timemodified] => 1545017413
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+Data to save: stdClass Object
+(
+    [name] => ,hlb
+    [description_editor] => Array
+        (
+            [text] => <p>/ jp[j'ppojj</p>
+            [format] => 1
+            [itemid] => 933674630
+        )
+
+    [attachment_filemanager] => 36528933
+    [completed] => 0
+    [id] => 6
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1545165022
+    [timemodified] => 1545165022
+    [description] => <p>/ jp[j'ppojj</p>
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+record data: stdClass Object
+(
+    [id] => 6
+    [courseid] => 4
+    [name] => ,hlb
+    [description] => <p>/ jp[j'ppojj</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545165022
+    [timemodified] => 1545165022
+)
+
+record data: stdClass Object
+(
+    [id] => 1
+    [courseid] => 4
+    [name] => A task - edited
+    [description] => <p><h4>New task edited.&nbsp;&nbsp;</h4><img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="100" height="42" class="img-responsive atto_image_button_left"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1543866172
+    [timemodified] => 1544487533
+)
+
+Data to save: stdClass Object
+(
+    [name] => 12312312
+    [description_editor] => Array
+        (
+            [text] => <p>1231231</p>
+            [format] => 1
+            [itemid] => 46927028
+        )
+
+    [attachment_filemanager] => 47055737
+    [completed] => 0
+    [id] => 7
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1545165226
+    [timemodified] => 1545165226
+    [description] => <p>1231231</p>
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 
+)
+
+record data: stdClass Object
+(
+    [id] => 7
+    [courseid] => 4
+    [name] => 12312312
+    [description] => <p>1231231</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545165226
+    [timemodified] => 1545165226
+)
+
+Data to save: stdClass Object
+(
+    [name] => werwerwer
+    [description_editor] => Array
+        (
+            [text] => werwer
+            [format] => 1
+            [itemid] => 874052987
+        )
+
+    [attachment_filemanager] => 895913474
+    [completed] => 0
+    [id] => 8
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1545165382
+    [timemodified] => 1545165382
+    [description] => werwer
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 
+)
+
+record data: stdClass Object
+(
+    [id] => 8
+    [courseid] => 4
+    [name] => werwerwer
+    [description] => werwer
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545165382
+    [timemodified] => 1545165382
+)
+
+record data: stdClass Object
+(
+    [id] => 8
+    [courseid] => 4
+    [name] => werwerwer
+    [description] => werwer
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545165382
+    [timemodified] => 1545165382
+)
+
+Data to save: stdClass Object
+(
+    [name] => Do some git updating
+    [description_editor] => Array
+        (
+            [text] => <p>Load source code to git.&nbsp;<img src="http://localhost/moodle/draftfile.php/5/user/draft/90396549/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+            [format] => 1
+            [itemid] => 90396549
+        )
+
+    [attachment_filemanager] => 183596011
+    [completed] => 0
+    [id] => 9
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 1
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+Data to save: stdClass Object
+(
+    [name] => 123123123
+    [description_editor] => Array
+        (
+            [text] => 1231
+            [format] => 1
+            [itemid] => 483797784
+        )
+
+    [attachment_filemanager] => 200078224
+    [completed] => 0
+    [id] => 10
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1545167383
+    [timemodified] => 1545167383
+    [description] => 1231
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 10
+    [courseid] => 4
+    [name] => 123123123
+    [description] => 1231
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545167383
+    [timemodified] => 1545167383
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+Data to save: stdClass Object
+(
+    [name] => 123123
+    [description_editor] => Array
+        (
+            [text] => 123
+            [format] => 1
+            [itemid] => 90085603
+        )
+
+    [attachment_filemanager] => 434902015
+    [completed] => 0
+    [id] => 11
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1545167482
+    [timemodified] => 1545167482
+    [description] => 123
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 11
+    [courseid] => 4
+    [name] => 123123
+    [description] => 123
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545167482
+    [timemodified] => 1545167482
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+Data to save: stdClass Object
+(
+    [name] => 123123
+    [description_editor] => Array
+        (
+            [text] => 123
+            [format] => 1
+            [itemid] => 603669969
+        )
+
+    [attachment_filemanager] => 999209178
+    [completed] => 0
+    [id] => 12
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1545167802
+    [timemodified] => 1545167802
+    [description] => 123
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 12
+    [courseid] => 4
+    [name] => 123123
+    [description] => 123
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545167802
+    [timemodified] => 1545167802
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+Data to save: stdClass Object
+(
+    [name] => werwerw
+    [description_editor] => Array
+        (
+            [text] => <p>werwer</p>
+            [format] => 1
+            [itemid] => 870183759
+        )
+
+    [attachment_filemanager] => 239160004
+    [completed] => 0
+    [id] => 13
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1545169689
+    [timemodified] => 1545169689
+    [description] => <p>werwer</p>
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 13
+    [courseid] => 4
+    [name] => werwerw
+    [description] => <p>werwer</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545169689
+    [timemodified] => 1545169689
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 13
+    [courseid] => 4
+    [name] => werwerw
+    [description] => <p>werwer</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545169689
+    [timemodified] => 1545169689
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+Data to save: stdClass Object
+(
+    [name] => 234234234
+    [description_editor] => Array
+        (
+            [text] => 2342342
+            [format] => 1
+            [itemid] => 785427283
+        )
+
+    [attachment_filemanager] => 188400054
+    [completed] => 0
+    [id] => 14
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1545169824
+    [timemodified] => 1545169824
+    [description] => 2342342
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 14
+    [courseid] => 4
+    [name] => 234234234
+    [description] => 2342342
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545169824
+    [timemodified] => 1545169824
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+Data to save: stdClass Object
+(
+    [name] => qweqweqweqwe
+    [description_editor] => Array
+        (
+            [text] => <p>qweqwe</p>
+            [format] => 1
+            [itemid] => 334857972
+        )
+
+    [attachment_filemanager] => 125825193
+    [completed] => 0
+    [id] => 15
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1545170748
+    [timemodified] => 1545170748
+    [description] => <p>qweqwe</p>
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 15
+    [courseid] => 4
+    [name] => qweqweqweqwe
+    [description] => <p>qweqwe</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545170748
+    [timemodified] => 1545170748
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 15
+    [courseid] => 4
+    [name] => qweqweqweqwe
+    [description] => <p>qweqweqweq q we</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545170748
+    [timemodified] => 1545170777
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+Data to save: stdClass Object
+(
+    [name] => 234234
+    [description_editor] => Array
+        (
+            [text] => 23423423
+            [format] => 1
+            [itemid] => 151695254
+        )
+
+    [attachment_filemanager] => 393741028
+    [completed] => 0
+    [id] => 16
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1545170883
+    [timemodified] => 1545170883
+    [description] => 23423423
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 16
+    [courseid] => 4
+    [name] => 234234
+    [description] => 23423423
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545170883
+    [timemodified] => 1545170883
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+Data to save: stdClass Object
+(
+    [name] => werwer
+    [description_editor] => Array
+        (
+            [text] => <p>werwerwer</p>
+            [format] => 1
+            [itemid] => 672217273
+        )
+
+    [attachment_filemanager] => 342926674
+    [completed] => 0
+    [id] => 17
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1545171537
+    [timemodified] => 1545171537
+    [description] => <p>werwerwer</p>
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 17
+    [courseid] => 4
+    [name] => werwer
+    [description] => <p>werwerwer</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545171537
+    [timemodified] => 1545171537
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+Data to save: stdClass Object
+(
+    [name] => 223423423
+    [description_editor] => Array
+        (
+            [text] => 234
+            [format] => 1
+            [itemid] => 322918798
+        )
+
+    [attachment_filemanager] => 802055128
+    [completed] => 0
+    [id] => 18
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1545171678
+    [timemodified] => 1545171678
+    [description] => 234
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 18
+    [courseid] => 4
+    [name] => 223423423
+    [description] => 234
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545171678
+    [timemodified] => 1545171678
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 18
+    [courseid] => 4
+    [name] => 223423423
+    [description] => 234
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545171678
+    [timemodified] => 1545171678
+)
+
+Data to save: stdClass Object
+(
+    [name] => qeqweqwe
+    [description_editor] => Array
+        (
+            [text] => <p>qweqweqwe</p>
+            [format] => 1
+            [itemid] => 189628347
+        )
+
+    [attachment_filemanager] => 431694555
+    [completed] => 0
+    [id] => 19
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1545171742
+    [timemodified] => 1545171742
+    [description] => <p>qweqweqwe</p>
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 18
+    [courseid] => 4
+    [name] => 223423423
+    [description] => 234
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545171678
+    [timemodified] => 1545171678
+)
+
+record data: stdClass Object
+(
+    [id] => 19
+    [courseid] => 4
+    [name] => qeqweqwe
+    [description] => <p>qweqweqwe</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545171742
+    [timemodified] => 1545171742
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 18
+    [courseid] => 4
+    [name] => 223423423
+    [description] => 234
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545171678
+    [timemodified] => 1545171678
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 18
+    [courseid] => 4
+    [name] => 223423423
+    [description] => 234
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545171678
+    [timemodified] => 1545171678
+)
+
+Data to save: stdClass Object
+(
+    [name] => wrw
+    [description_editor] => Array
+        (
+            [text] => <p>werwer</p>
+            [format] => 1
+            [itemid] => 27461395
+        )
+
+    [attachment_filemanager] => 217274936
+    [completed] => 0
+    [id] => 20
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1545171861
+    [timemodified] => 1545171861
+    [description] => <p>werwer</p>
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 18
+    [courseid] => 4
+    [name] => 223423423
+    [description] => 234
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545171678
+    [timemodified] => 1545171678
+)
+
+record data: stdClass Object
+(
+    [id] => 20
+    [courseid] => 4
+    [name] => wrw
+    [description] => <p>werwer</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545171861
+    [timemodified] => 1545171861
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 18
+    [courseid] => 4
+    [name] => 223423423
+    [description] => 234
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545171678
+    [timemodified] => 1545171678
+)
+
+record data: stdClass Object
+(
+    [id] => 20
+    [courseid] => 4
+    [name] => wrw
+    [description] => <p>werwer</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545171861
+    [timemodified] => 1545171861
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 18
+    [courseid] => 4
+    [name] => 223423423
+    [description] => 234
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545171678
+    [timemodified] => 1545171678
+)
+
+record data: stdClass Object
+(
+    [id] => 20
+    [courseid] => 4
+    [name] => wrw
+    [description] => <p>werwer</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545171861
+    [timemodified] => 1545171861
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 18
+    [courseid] => 4
+    [name] => 223423423
+    [description] => 234
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545171678
+    [timemodified] => 1545171678
+)
+
+record data: stdClass Object
+(
+    [id] => 20
+    [courseid] => 4
+    [name] => wrw
+    [description] => <p>werwer</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545171861
+    [timemodified] => 1545171861
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 18
+    [courseid] => 4
+    [name] => 223423423
+    [description] => 234
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545171678
+    [timemodified] => 1545171678
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+Data to save: stdClass Object
+(
+    [name] => 1231233
+    [description_editor] => Array
+        (
+            [text] => 1231
+            [format] => 1
+            [itemid] => 59398074
+        )
+
+    [attachment_filemanager] => 677049049
+    [completed] => 0
+    [id] => 21
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1545172975
+    [timemodified] => 1545172975
+    [description] => 1231
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 21
+    [courseid] => 4
+    [name] => 1231233
+    [description] => 1231
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545172975
+    [timemodified] => 1545172975
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+Data to save: stdClass Object
+(
+    [name] => 123123123
+    [description_editor] => Array
+        (
+            [text] => <p>123123123123</p>
+            [format] => 1
+            [itemid] => 42714382
+        )
+
+    [attachment_filemanager] => 364553300
+    [completed] => 0
+    [id] => 22
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1545173067
+    [timemodified] => 1545173067
+    [description] => <p>123123123123</p>
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 22
+    [courseid] => 4
+    [name] => 123123123
+    [description] => <p>123123123123</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545173067
+    [timemodified] => 1545173067
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 22
+    [courseid] => 4
+    [name] => 123123123
+    [description] => <p>123123123123</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545173067
+    [timemodified] => 1545173067
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 22
+    [courseid] => 4
+    [name] => 123123123
+    [description] => <p>123123123123</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545173067
+    [timemodified] => 1545173067
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 22
+    [courseid] => 4
+    [name] => 123123123
+    [description] => <p>123123123123</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545173067
+    [timemodified] => 1545173067
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+Data to save: stdClass Object
+(
+    [name] => 234234234234
+    [description_editor] => Array
+        (
+            [text] => 23
+            [format] => 1
+            [itemid] => 556163517
+        )
+
+    [attachment_filemanager] => 34223015
+    [completed] => 0
+    [id] => 23
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1545178353
+    [timemodified] => 1545178353
+    [description] => 23
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 23
+    [courseid] => 4
+    [name] => 234234234234
+    [description] => 23
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545178353
+    [timemodified] => 1545178353
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+Data to save: stdClass Object
+(
+    [name] => 234234
+    [description_editor] => Array
+        (
+            [text] => <p>2342344</p>
+            [format] => 1
+            [itemid] => 570540236
+        )
+
+    [attachment_filemanager] => 167473143
+    [completed] => 0
+    [id] => 24
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1545178390
+    [timemodified] => 1545178390
+    [description] => <p>2342344</p>
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 24
+    [courseid] => 4
+    [name] => 234234
+    [description] => <p>2342344</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545178390
+    [timemodified] => 1545178390
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+Data to save: stdClass Object
+(
+    [name] => 234234234
+    [description_editor] => Array
+        (
+            [text] => <p>234234234 223 4234&nbsp;</p>
+            [format] => 1
+            [itemid] => 146932738
+        )
+
+    [attachment_filemanager] => 445404400
+    [completed] => 0
+    [id] => 25
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1545178458
+    [timemodified] => 1545178458
+    [description] => <p>234234234 223 4234&nbsp;</p>
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 25
+    [courseid] => 4
+    [name] => 234234234
+    [description] => <p>234234234 223 4234&nbsp;</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545178458
+    [timemodified] => 1545178458
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 25
+    [courseid] => 4
+    [name] => 234234234
+    [description] => <p>234234234 223 4234&nbsp;</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545178458
+    [timemodified] => 1545178458
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+Data to save: stdClass Object
+(
+    [name] => 123123
+    [description_editor] => Array
+        (
+            [text] => 123123
+            [format] => 1
+            [itemid] => 660213549
+        )
+
+    [attachment_filemanager] => 117223351
+    [completed] => 0
+    [id] => 26
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1545178599
+    [timemodified] => 1545178599
+    [description] => 123123
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 26
+    [courseid] => 4
+    [name] => 123123
+    [description] => 123123
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545178599
+    [timemodified] => 1545178599
+)
+
+Data to save: stdClass Object
+(
+    [name] => asdasd
+    [description_editor] => Array
+        (
+            [text] => <p>asdasdasd</p>
+            [format] => 1
+            [itemid] => 699987229
+        )
+
+    [attachment_filemanager] => 978567664
+    [completed] => 0
+    [id] => 27
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1545178612
+    [timemodified] => 1545178612
+    [description] => <p>asdasdasd</p>
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 26
+    [courseid] => 4
+    [name] => 123123
+    [description] => 123123
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545178599
+    [timemodified] => 1545178599
+)
+
+record data: stdClass Object
+(
+    [id] => 27
+    [courseid] => 4
+    [name] => asdasd
+    [description] => <p>asdasdasd</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545178612
+    [timemodified] => 1545178612
+)
+
+Data to save: stdClass Object
+(
+    [name] => asdasdasd
+    [description_editor] => Array
+        (
+            [text] => <p>asd asd</p>
+            [format] => 1
+            [itemid] => 729410773
+        )
+
+    [attachment_filemanager] => 146469982
+    [completed] => 0
+    [id] => 28
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1545178626
+    [timemodified] => 1545178626
+    [description] => <p>asd asd</p>
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 26
+    [courseid] => 4
+    [name] => 123123
+    [description] => 123123
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545178599
+    [timemodified] => 1545178599
+)
+
+record data: stdClass Object
+(
+    [id] => 27
+    [courseid] => 4
+    [name] => asdasd
+    [description] => <p>asdasdasd</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545178612
+    [timemodified] => 1545178612
+)
+
+record data: stdClass Object
+(
+    [id] => 28
+    [courseid] => 4
+    [name] => asdasdasd
+    [description] => <p>asd asd</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545178626
+    [timemodified] => 1545178626
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 26
+    [courseid] => 4
+    [name] => 123123
+    [description] => 123123
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545178599
+    [timemodified] => 1545178599
+)
+
+record data: stdClass Object
+(
+    [id] => 27
+    [courseid] => 4
+    [name] => asdasd
+    [description] => <p>asdasdasd</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545178612
+    [timemodified] => 1545178612
+)
+
+record data: stdClass Object
+(
+    [id] => 28
+    [courseid] => 4
+    [name] => asdasdasd
+    [description] => <p>asd asd</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545178626
+    [timemodified] => 1545178626
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 26
+    [courseid] => 4
+    [name] => 123123
+    [description] => 123123
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545178599
+    [timemodified] => 1545178599
+)
+
+record data: stdClass Object
+(
+    [id] => 27
+    [courseid] => 4
+    [name] => asdasd
+    [description] => <p>asdasdasd</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545178612
+    [timemodified] => 1545178612
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 26
+    [courseid] => 4
+    [name] => 123123
+    [description] => 123123
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545178599
+    [timemodified] => 1545178599
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 26
+    [courseid] => 4
+    [name] => 123123
+    [description] => 123123
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545178599
+    [timemodified] => 1545178599
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 26
+    [courseid] => 4
+    [name] => 123123
+    [description] => 123123
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545178599
+    [timemodified] => 1545178599
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 26
+    [courseid] => 4
+    [name] => 123123
+    [description] => 123123
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545178599
+    [timemodified] => 1545178599
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 26
+    [courseid] => 4
+    [name] => 123123
+    [description] => 123123
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545178599
+    [timemodified] => 1545178599
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+Data to save: stdClass Object
+(
+    [name] => qweqweqweqw
+    [description_editor] => Array
+        (
+            [text] => <p>qweqwewe qew</p>
+            [format] => 1
+            [itemid] => 554826170
+        )
+
+    [attachment_filemanager] => 386257626
+    [completed] => 0
+    [id] => 29
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 4
+    [timecreated] => 1545181327
+    [timemodified] => 1545181327
+    [description] => <p>qweqwewe qew</p>
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 29
+    [courseid] => 4
+    [name] => qweqweqweqw
+    [description] => <p>qweqwewe qew</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545181327
+    [timemodified] => 1545181327
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 29
+    [courseid] => 4
+    [name] => qweqweqweqw
+    [description] => <p>qweqwewe qew</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545181327
+    [timemodified] => 1545181327
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 29
+    [courseid] => 4
+    [name] => qweqweqweqw
+    [description] => <p>qweqwewe qew</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545181327
+    [timemodified] => 1545181327
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+record data: stdClass Object
+(
+    [id] => 9
+    [courseid] => 4
+    [name] => Do some git updating
+    [description] => <p>Load source code to git.&nbsp;<img src="@@PLUGINFILE@@/git_logo%402x.png" alt="git" width="120" height="50" class="img-responsive atto_image_button_right"></p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545166844
+    [timemodified] => 1545166844
+)
+
+Data to save: stdClass Object
+(
+    [name] => Test task 1
+    [description_editor] => Array
+        (
+            [text] => <p>A test case description.</p>
+            [format] => 1
+            [itemid] => 990252595
+        )
+
+    [attachment_filemanager] => 250968451
+    [completed] => 0
+    [id] => 30
+    [itemid] => 0
+    [submitbutton] => Save changes
+    [courseid] => 3
+    [timecreated] => 1545186095
+    [timemodified] => 1545186095
+    [description] => <p>A test case description.</p>
+    [descriptionformat] => 1
+    [descriptiontrust] => 
+    [attachment] => 
+)
+
+record data: stdClass Object
+(
+    [id] => 30
+    [courseid] => 3
+    [name] => Test task 1
+    [description] => <p>A test case description.</p>
+    [completed] => 0
+    [priority] => 1
+    [timecreated] => 1545186095
+    [timemodified] => 1545186095
+)
+

@@ -43,7 +43,7 @@ $PAGE->set_url($url);
 $PAGE->set_pagelayout('report');
 $PAGE->set_title($title);
 $PAGE->set_heading(get_string('index_header', 'tool_richardnz'));
-
+$PAGE->requires->js_call_amd('tool_richardnz/alert', 'init', $PAGE->url);
 $renderer = $PAGE->get_renderer('tool_richardnz');
 
 require_login();

@@ -20,8 +20,8 @@
 
     Moodle table rendering template for tasks table row
 
-    Classes required for JS:
-    * none
+    Classes required for JS (I think this goes here??):
+    * tool_richardnz_deletelink
 
     Data attributes required for JS:
     * none
@@ -49,8 +49,27 @@
     <td>{{{attachment}}}</td>
     <td>{{priority}}</td>
     <td>{{completed}}</td>
-    <td>{{#userdate}}{{timecreated}}, {{#str}} strftimedate {{/str}} {{/userdate}}</td>
-    <td>{{#userdate}}{{timemodified}}, {{#str}} strftimedate {{/str}} {{/userdate}}</td>
-    <td>{{{editlink}}}</td>
-    <td>{{{deletelink}}}</td>
+    <td>{{#userdate}}{{timecreated}},
+        {{#str}} strftimedate {{/str}} {{/userdate}}</td>
+    <td>{{#userdate}}{{timemodified}},
+        {{#str}} strftimedate {{/str}} {{/userdate}}</td>
+    <td>
+        {{#editlink}}
+            <a href="{{{link}}}">
+                {{#pix}}
+                    {{icon.icon}}, {{icon.component}}, {{icon.alt}}
+                {{/pix}}
+            </a>
+        {{/editlink}}
+    </td>
+
+    <td>
+        {{#deletelink}}
+            <a href="{{{link}}}" class="tool_richardnz_deletelink">
+                {{#pix}}
+                    {{icon.icon}}, {{icon.component}}, {{icon.alt}}
+                {{/pix}}
+            </a>
+        {{/deletelink}}
+    </td>
 </tr>

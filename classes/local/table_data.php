@@ -104,23 +104,31 @@ class table_data {
                     $record->completed == 1 ? 'yes' : 'no';
             $data['timecreated'] = $record->timecreated;
             $data['timemodified'] = $record->timemodified;
-            // Add the edit link.
+            // Add the edit/delete links.
             if ($canedit) {
                 $url = new \moodle_url('edit.php',
-                        ['id' => $record->courseid, 'itemid' => $record->id]);
-                $data['editlink'] = \html_writer::link($url,
-                        get_string('editlink', 'tool_richardnz'));
+                        ['id' => $record->courseid,
+                         'itemid' => $record->id]);
+                $icon = ['icon' => 't/edit', 'component' => 'core',
+                         'alt'=> get_string(
+                         'editlink', 'tool_richardnz')];
+                $data['editlink'] = ['link' => $url->out(false),
+                        'icon' => $icon];
             } else {
                 $data['editlink'] = '-';
             }
             // delete link (add the sesskey!).
+            // Note: we make itemid negative to flag deletion required.
             if ($candelete) {
                 $url = new \moodle_url('edit.php',
                         ['id' => $record->courseid,
                          'itemid' => -$record->id,
                          'sesskey' => sesskey()]);
-                $data['deletelink'] = \html_writer::link($url,
-                        get_string('deletelink', 'tool_richardnz'));
+                $icon = ['icon' => 't/delete', 'component' => 'core',
+                         'alt'=> get_string(
+                         'deletelink', 'tool_richardnz')];
+                $data['deletelink'] = ['link' => $url->out(false),
+                        'icon' => $icon];
             } else {
                 $data['deletelink'] = '-';
             }
