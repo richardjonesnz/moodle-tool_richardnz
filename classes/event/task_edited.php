@@ -41,7 +41,7 @@ class task_edited extends \core\event\base {
      */
     protected function init() {
         $this->data['objecttable'] = 'tool_richardnz';
-        $this->data['crud'] = 'c';
+        $this->data['crud'] = 'u';
         $this->data['edulevel'] = self::LEVEL_PARTICIPATING;
     }
 
