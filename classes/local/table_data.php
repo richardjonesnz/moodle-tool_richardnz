@@ -95,7 +95,6 @@ class table_data {
                     $record->id);
             $data['description'] = format_text($description, FORMAT_HTML,
                     $formatoptions);
-            debugging::logit('record data: ', $record);
             $data['attachment'] = self::get_attached_file(
                     $context->id,
                     $record->id);
@@ -180,8 +179,6 @@ class table_data {
                         'tool_richardnz',
                         'attachment',
                         $itemid);
-
-                debugging::logit('Data to save: ', $data);
 
                 // Update the record with full editor data
                 $DB->update_record('tool_richardnz', $data);

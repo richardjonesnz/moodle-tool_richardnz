@@ -15,20 +15,21 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Renderer
+ * Events file
  *
  * @package    tool_richardnz
  * @copyright  2018 Richard Jones <richardnz@outlook.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
- * @see https://moodledev.moodle.school/mod/page/view.php?id=50
+ * @see https://github.com/moodlehq/moodle-mod_newmodule
+ *
  */
 
-class tool_richardnz_renderer extends plugin_renderer_base {
+defined('MOODLE_INTERNAL') || die();
 
-    public function print_table($data) {
-
-        return $this->output->render_from_template(
-                 'tool_richardnz/tasks_table', $data);
-    }
-
-}
+$observers = [
+    [
+        'eventname' => '\core\event\course_content_deleted',
+        'callback' =>
+                '\tool_richardnz_observer::course_content_deleted',
+    ],
+];

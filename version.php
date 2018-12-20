@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'tool_richardnz';
-$plugin->version = 2018122001;
-$plugin->release = 'v2.3'; // New branch for transfer to Stretch.
+$plugin->version = 2018122005;
+$plugin->release = 'v2.4'; // Observers and events.
 $plugin->requires = 2017111301;
 $plugin->maturity = MATURITY_BETA;
